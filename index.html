@@ -1,968 +1,274 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <title>Aldina Avdic</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aldina Avdić</title>
+    <meta
+      name="description"
+      content="Academic and research portfolio of Aldina Avdic, Ph.D. in Computer Science."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-bg"></div>
 
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: BLUE;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
-}
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#top" class="brand">Aldina Avdic</a>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">Menu</button>
+        <nav id="main-nav" class="main-nav">
+          <a href="#about">About</a>
+          <a href="#position">Position</a>
+          <a href="#education">Education</a>
+          <a href="#projects">Projects</a>
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
 
-#myBtn:hover {
-  background-color: #555;
-}  
-  
-  </style>
-</head>
-<body>
+    <main id="top">
+      <section class="hero container reveal">
+        <div class="hero-grid">
+          <div>
+            <p class="kicker">Ph.D. in Computer Science</p>
+            <h1>Aldina Avdić</h1>
+            <p class="hero-text">
+              Medior QA Analyst at Incode Technologies | Former Assistant
+              Professor | Ph.D. in Computer Science.
+            </p>
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="#contact">Contact</a>
+              <a class="btn btn-outline" href="#publications">View Publications</a>
+            </div>
+          </div>
+          <figure class="hero-photo-wrap">
+            <img
+              class="hero-photo"
+              src="Picture1.jpg"
+              alt="Portrait of Aldina Avdic"
+            />
+          </figure>
+        </div>
+      </section>
 
-<div id="job" class="p-5 bg-primary text-white text-center">
-  <h2>Aldina Avdic</h2>
-      <h5>Ph.D. in Computer Science</h5>
+      <section id="about" class="container card reveal">
+        <h2>About</h2>
+        <p>
+          Aldina Avdic is based in Novi Pazar, Serbia, and works as a Medior QA
+          Analyst at Incode Technologies. She is a former Assistant Professor
+          and researcher whose work spans AI, smart city technologies, clinical
+          text processing, and software engineering.
+        </p>
+      </section>
+
+      <section id="position" class="container card reveal">
+        <h2>Job Position</h2>
+        <p>
+          Current role: Medior QA Analyst at Incode Technologies.
+        </p>
+        <p class="muted">
+          Former role: Assistant Professor at the State University of Novi
+          Pazar, Department of Technical Sciences.
+        </p>
+        <h3>Formerly taught courses</h3>
+        <ul class="pill-list">
+          <li>Machine Learning</li>
+          <li>Artificial Intelligence</li>
+          <li>Algorithms and Data Structures</li>
+          <li>Software Engineering</li>
+          <li>Internet Programming</li>
+          <li>Software Construction</li>
+          <li>Human-Computer Interaction</li>
+          <li>Computer Graphics</li>
+          <li>Distributed Systems</li>
+        </ul>
+      </section>
+
+      <section id="education" class="container card reveal">
+        <h2>Education</h2>
+        <div class="timeline-item">
+          <h3>Faculty of Electronic Engineering, University of Nis</h3>
+          <p>
+            Ph.D. in Computer Science
+          </p>
+          <p class="muted">
+            Thesis:
+            <a href="https://eteze.ni.ac.rs/application/showtheses?thesesId=8491" target="_blank" rel="noreferrer">
+              Realization of Smart Health Services and Their Integration into the Concept of Smart Cities
+            </a>.
+          </p>
+        </div>
+      </section>
+
+      <section id="projects" class="container card reveal">
+        <h2>Projects</h2>
+        <h3>Ministry of Education and Science (Serbia)</h3>
+        <ul>
+          <li>
+            III44007 - New information technologies for analytical decision
+            making based on experiment organization and applications in
+            biological, economical, and sociological systems.
+          </li>
+          <li>
+            TR35026 - Software environment for optimal managing the process of
+            quality software development.
+          </li>
+        </ul>
+        <h3>Ministry of Trade, Tourism and Telecommunications</h3>
+        <ul>
+          <li>IT is also for women - Humanitarian organization Svetionik.</li>
+        </ul>
+        <h3>Erasmus+</h3>
+        <ul>
+          <li>
+            Institutional framework for the development of the third mission of
+            the University of Serbia (IF4TM).
+          </li>
+        </ul>
+      </section>
+
+      <section id="research" class="container card reveal">
+        <h2>Scientific Research</h2>
+        <div class="stats">
+          <article>
+            <p class="num">10</p>
+            <p>Journal papers</p>
+          </article>
+          <article>
+            <p class="num">70+</p>
+            <p>Conference papers</p>
+          </article>
+          <article>
+            <p class="num">8</p>
+            <p>Reviewed journal papers</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="publications" class="container card reveal">
+<h2>Publications by Year</h2>
+<p class="muted">Klikni na godinu da otvoriš publikacije za taj period.</p>
+<div class="year-menu-static range-filters">
+  <button type="button" class="year-link range-filter active" data-range="2021-2025">2021-2025</button>
+  <button type="button" class="year-link range-filter" data-range="2016-2020">2016-2020</button>
+  <button type="button" class="year-link range-filter" data-range="2011-2015">2011-2015</button>
 </div>
 
 
 
 
 
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 
 
-<script>
-//Get the button
-var mybutton = document.getElementById("myBtn");
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-</script>
 
 
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center  navbar-fixed-top">
-  
-    <ul class="navbar-nav " >
-      <li class="nav-item">
-        <a class="nav-link active" href="#job">Job Position</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#edu">Education</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#pro">Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#sci">Scientific Research</a>
-      </li>
-	  <li class="nav-item">
-        <a class="nav-link" href="#ref">References</a>
-      </li>
-    </ul>
-  
-</nav>
-
-<div class="container mt-5">
-  <div class="row">
-    <div class="col-sm-4">
-      <div ><img src="Picture1.jpg"/> </div>
-      <p><b>address:</b> Novi Pazar, Serbia</p>
-	  <p><b>e-mail:</b> apljaskovic@np.ac.rs</p>
-	  <p><b>website:</b> <a href="aldinaa.github.io">aldinaa.github.io</a></p>
-    
-      <hr class="d-sm-none">
-    </div>
-    <div class="col-sm-8">
-      <h2>Job Position</h2>
-      <h5>Assistant Professor at the State University of Novi Pazar, Serbia, at the Department of Technical Sciences, in the courses:</h5>
-	  
-      <div >
-	  <ul>
-	  <li>Machine Learning</li>
-	  <li>Artificial Intelligence</li>
-	  <li>Algorithms and Data Structures</li>
-	  <li>Software Engineering</li>
-	  <li>Internet Programming</li>
-	  <li>Software Construction</li>
-	  <li>Human-Computer Interaction</li>
-	  <li>Computer Graphics</li>
-	  <li>Distributed Systems</li>
-	  
-	  </div>
-	  
-	  <div id="edu" class="col-sm-8">
-      <h2>Education</h2>
-      <h5>Faculty of Electronic Engineering, University of Niš, Serbia</h5>
-
-       <li>Ph.D. in Computer Science (Thesis: “Realization of Smart Health Services and Their Integration into the Concept of Smart Cities”)</li>
-
-  <br/>
-
-<h2 id="pro">Participation in the Projects</h2>
-
-  <br/>
-
-<p><b>Projects of the Ministry of Education and Science of the Republic of Serbia:</b></p>
-
-<li>III44007 - New information technologies for analytical decision making based on experiment organization and their application in biological, economical, and sociological systems
-</li>
-<li>TR35026 - Software environment for optimal managing the process of developing quality Software</li>
- <br/>
-<p><b>Projects of the Ministry of Trade, Tourism and Telecommunications:</b></p>
-
-<li>“IT is also for women” - Humanitarian organization Svetionik</li>
- <br/>
-<p><b>Erasmus+:</b></p>
-
-<li>Institutional framework for the development of the third mission of the University of Serbia - IF4TM (HEISPS)</li></h5>
-	  
- <br/>
- <div id="sci">
- <h2>Scientific Research</h2>
- <li>10 published papers in international and
-  domestic journals</li>
-  <li>70+ papers published at domestic and foreign
-  conferences </li>
-  <li>Reviewer of 8 journal papers</li>
-  </div>
-  <br/>
-  
-  <h2 id="ref">References</h2>
-  <br/>
-  <p ><b>International
-  Journals:</b></p>
-  <p class=MsoNormal><b><span lang=EN-US style='font-size:9.0pt'>&nbsp;</span></b></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>1.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%'>Ejub Kajan,
-  Noura Faci, Zakaria Maamar, Alfred Loo, Aldina Pljaskovi&#263;, Quan Z Sheng,
-  Schahram Dustdar, The Network-based Business Process, IEEE Internet
-  Computing, 2014, 18(2), 63- 69.&nbsp;&nbsp;&nbsp; M21, <b><span
-  style='color:black;background:white'>DOI: </span></b>&nbsp;</span><span
-  lang=EN-US><a href="https://doi.org/10.1109/MIC.2014.35"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC;background:white'>https://doi.org/</span></a><a
-  href="https://doi.org/10.1109/MIC.2014.35"><span style='font-size:9.0pt;
-  line-height:105%;color:#1155CC;background:white'>10.1109/MIC.2014.35</span></a></span><span
-  lang=EN-US style='font-size:9.0pt;line-height:105%'>, </span><span
-  lang=EN-US><a href="https://cs.adelaide.edu.au/~qsheng/papers/IC-mar14.pdf"><span
-  style='font-size:9.0pt;line-height:105%'>https://cs.adelaide.edu.au/~qsheng/papers/IC-mar14.pdf</span></a></span><span
-  lang=EN-US style='font-size:9.0pt;line-height:105%'>.</span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>2.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%'>Dženan
-  Avdi&#263;, Dejan Ran&#269;i&#263;, Petar Spalevi&#263;, Aldina Avdi&#263;,
-  Edin Doli&#263;anin, Real-time shadows in OpenGL caused by the presence of
-  multiple light sources, Tehni&#269;ki vjesnik, 2017, 24(2), 495-501. M23, </span><span
-  lang=EN-US><a href="https://doi.org/10.17559/TV-20140324202037"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>https://doi.org/10.17559/TV-20140324202037</span></a></span><span
-  lang=EN-US style='font-size:9.0pt;line-height:105%'>, </span><span
-  lang=EN-US><a href="https://hrcak.srce.hr/file/274459"><span
-  style='font-size:9.0pt;line-height:105%'>https://hrcak.srce.hr/file/274459</span></a></span><span
-  lang=EN-US style='font-size:9.0pt;line-height:105%'>.</span></p>
-  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
-  margin-left:.5in;text-indent:-.25in;line-height:105%;text-autospace:ideograph-other'><span
-  lang=EN-US style='font-size:9.0pt;line-height:105%'>3.</span><span
-  lang=EN-US style='font-size:7.0pt;line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%'>Aldina
-  Avdi&#263;, Ulfeta Marovac, Dragan Jankovi&#263;, Avdic, A., Marovac, U.,
-  &amp; Jankovic, D. (2020). Automated labeling of terms in medical reports in
-  Serbian. Turkish Journal of Electrical Engineering &amp; Computer Sciences,
-  28(6), 3285-3303. M23, </span><span lang=EN-US><a
-  href="https://doi.org/10.3906/elk-2002-9"><span style='font-size:9.0pt;
-  line-height:105%;color:#1155CC'>https://doi.org/10.3906/elk-2002-9</span></a></span><span
-  lang=EN-US style='font-size:9.0pt;line-height:105%'>, </span><span
-  lang=EN-US><a
-  href="https://journals.tubitak.gov.tr/elektrik/issues/elk-20-28-6/elk-28-6-14-2002-9.pdf"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>https://journals.tubitak.gov.tr/elektrik/issues/elk-20-28-6/elk-28-6-14-2002-9.pdf</span></a></span><span
-  lang=EN-US style='font-size:9.0pt;line-height:105%'>, </span><span
-  lang=EN-US><a
-  href="https://journals.tubitak.gov.tr/elektrik/abstract.htm?id=28234"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>https://journals.tubitak.gov.tr/elektrik/abstract.htm?id=28234</span></a></span><span
-  lang=EN-US style='font-size:9.0pt;line-height:105%'>, </span><span
-  lang=EN-US><a
-  href="https://www.npao.ni.ac.rs/doktorandi-van-univerziteta/download/503_c08fa9cbfe9d8233ee9a75d4df4ae4e3"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>https://www.npao.ni.ac.rs/doktorandi-van-univerziteta/download/503_c08fa9cbfe9d8233ee9a75d4df4ae4e3</span></a></span><span
-  lang=EN-US style='font-size:9.0pt;line-height:105%'>.</span></p>
-  <p class=MsoNormal><b><span lang=EN-US style='font-size:9.0pt'>National
-  Journals:</span></b></p>
-  <p class=MsoNormal><b><span lang=EN-US style='font-size:9.0pt'>&nbsp;</span></b></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>4.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Aldina
-  Avdi&#263;, Ulfeta Marovac, Dragan Jankovi&#263;, (2020) </span><span
-  lang=EN-US style='font-size:9.0pt;line-height:105%;color:#222222;background:
-  white'>Normalization of Health Records in the Serbian Language with the Aim
-  of Smart Health Services Realization.&nbsp;<i>Facta Universitatis, Series:
-  Mathematics and Informatics</i>, Vol. 35, No 3 (2020), 825-841.</span><span
-  lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  M5</span><span lang=EN-US style='font-size:9.0pt;line-height:105%'>1<span
-  style='color:black'>. </span></span><span lang=EN-US><a
-  href="https://doi.org/10.22190/FUMI2003825A"><span style='font-size:9.0pt;
-  line-height:105%;color:#1155CC'>https://doi.org/10.22190/FUMI2003825A</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in'><span lang=EN-US><a
-  href="https://scholar.archive.org/work/fysgega5cvecfd5dtl7oixrnxu/access/wayback/http:/casopisi.junis.ni.ac.rs/index.php/FUMathInf/article/download/5748/pdf"><span
-  style='font-size:9.0pt;color:#1155CC'>https://scholar.archive.org/work/fysgega5cvecfd5dtl7oixrnxu/access/wayback/http://casopisi.junis.ni.ac.rs/index.php/FUMathInf/article/download/5748/pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>5.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%'>Zakaria
-  Maamar, Noura Faci, Ejub Kajan, Aldina Pljaskovi&#263;, Emir Ugljanin, Fahim
-  Akhter, From Social Web Services to Social Communities of Web Services, AIS:
-  Advances in Information Sciences, 2013, 1(1),
-  22-37.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  M53, </span><span lang=EN-US><a
-  href="https://www.researchgate.net/publication/265396625_From_Social_Web_Services_to_Social_Communities_of_Web_Services"><span
-  style='font-size:9.0pt;line-height:105%'>https://www.researchgate.net/publication/265396625_From_Social_Web_Services_to_Social_Communities_of_Web_Services</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>6.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Aldina
-  Avdi&#263;, Ejub Kajan, Dragan Jankovi&#263;, Dženan Avdi&#263;, Towards
-  Context-Aware Smart Healthcare Platform, International Journal of Electrical
-  Engineering and Computing, 2019, 3(1),
-  26-31.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; M5</span><span
-  lang=EN-US style='font-size:9.0pt;line-height:105%'>3<span style='color:black'>,
-  </span></span><span lang=EN-US><a
-  href="https://ijeec.etf.ues.rs.ba/index.php/ijeec/article/view/52"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>https://ijeec.etf.ues.rs.ba/index.php/ijeec/article/view/52</span></a></span><span
-  lang=EN-US style='font-size:9.0pt;line-height:105%'>, </span><span
-  lang=EN-US><a
-  href="https://ijeec.etf.ues.rs.ba/index.php/ijeec/article/view/52/32"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>https://ijeec.etf.ues.rs.ba/index.php/ijeec/article/view/52/32</span></a></span><span
-  lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>.</span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>7.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Ulfeta
-  Marovac, Aldina Avdi&#263;, Dragan Jankovi&#263;, Sead Marovac, Creating
-  Resources for Marking Diagnoses in Electronic Health Reports in Serbian,
-  International Journal of Electrical Engineering and Computing, 2020, 4(1),
-  18-23.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  M5</span><span lang=EN-US style='font-size:9.0pt;line-height:105%'>3<span
-  style='color:black'>. </span></span><span lang=EN-US><a
-  href="https://ijeec.etf.ues.rs.ba/index.php/ijeec/article/download/82/49"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>https://ijeec.etf.ues.rs.ba/index.php/ijeec/article/download/82/49</span></a></span><span
-  lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>.</span></p>
-  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
-  margin-left:.5in;text-indent:-.25in;line-height:105%;text-autospace:ideograph-other'><span
-  lang=EN-US style='font-size:9.0pt;line-height:105%'>8.</span><span
-  lang=EN-US style='font-size:7.0pt;line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%'>U. Marovac,
-  A. Avdic, A. Ljaji&#263;, Creating a Stop Word Dictionary in Serbian,
-  SCIENTIFIC PUBLICATIONS OF THE STATE UNIVERSITY OF NOVI PAZAR SER. A: APPL.
-  MATH. INFORM. AND MECH. vol. 13, 1, 2021, 17-25. M52</span></p>
-  <p class=MsoNormal style='margin-left:.5in'><span lang=EN-US><a
-  href="http://www.dunp.np.ac.rs/wp-content/uploads/2021/casopisa/vol13-1/SP-SUNP-13-1-2021-3.pdf"><span
-  style='font-size:9.0pt;color:#1155CC'>http://www.dunp.np.ac.rs/wp-content/uploads/2021/casopisa/vol13-1/SP-SUNP-13-1-2021-3.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in'><span lang=EN-US
-  style='font-size:9.0pt'>&nbsp;</span></p>
-  <p class=MsoNormal><b><span lang=EN-US style='font-size:9.0pt'>Monography:</span></b></p>
-  <p class=MsoNormal><b><span lang=EN-US style='font-size:9.0pt'>&nbsp;</span></b></p>
-  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
-  margin-left:.5in;text-indent:-.25in;line-height:105%;text-autospace:ideograph-other'><span
-  lang=EN-US style='font-size:9.0pt;line-height:105%'>9.</span><span
-  lang=EN-US style='font-size:7.0pt;line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%'>Adela
-  Ljaji&#263;, Ulefta Marovac, Aldina Avdi&#263;, Optimizacija dokumenata za
-  njihovu bržu pretragu, Nove informacione tehnologije za analiti&#269;ko
-  odlu&#269;ivanje u biološkim, ekonomskim i sociološkim sistemima, Državni
-  univerzitet u Novom Pazaru, 2014, pp. 64-87, ISBN: 978-86-86893-61-1,
-  preprint, M45.</span></p>
-  <p class=MsoNormal><b><span lang=EN-US style='font-size:9.0pt'>International
-  Conferences:</span></b></p>
-  <p class=MsoNormal><b><span lang=EN-US style='font-size:9.0pt'>&nbsp;</span></b></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>10.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%'>Ulfeta
-  Marovac, Adela Ljaji&#263;, Ejub Kajan, Aldina Avdic, Towards the lexical
-  resources for sentiment-reach informal texts – the Serbian language case,
-  Serbia, 5th International Conference „Contemporary Problems of Mathematics,
-  Mechanics and Informatics“, 2018, 17-19 Jun, Novi
-  Pazar.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; M34. </span><span lang=EN-US><a
-  href="https://www.researchgate.net/profile/Ejub-Kajan-2/publication/340591362_52UlfetaMarovac-etalCPPMI2018/links/5e92fe0d299bf1307991c2e0/52UlfetaMarovac-etalCPPMI2018.pdf"><span
-  style='font-size:9.0pt;line-height:105%'>https://www.researchgate.net/profile/Ejub-Kajan-2/publication/340591362_52UlfetaMarovac-etalCPPMI2018/links/5e92fe0d299bf1307991c2e0/52UlfetaMarovac-etalCPPMI2018.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in'><span lang=EN-US><a
-  href="https://www.npao.ni.ac.rs/doktorandi-van-univerziteta/download/519_c8518fa0b0a1c862e266cdf48c31d16c"><span
-  style='font-size:9.0pt;color:#1155CC'>https://www.npao.ni.ac.rs/doktorandi-van-univerziteta/download/519_c8518fa0b0a1c862e266cdf48c31d16c</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>11.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%'>Aldina
-  Avdi&#263;, Dragan Jankovi&#263;, Healthcare in Smart Cities – Privacy and
-  Security Issues, Serbia, 5th International Conference „Contemporary Problems
-  of Mathematics, Mechanics and Informatics“, 2018, 17-19 Jun, Novi
-  Pazar.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; M34</span></p>
-  <p class=MsoNormal style='margin-left:.5in'><span lang=EN-US><a
-  href="https://www.npao.ni.ac.rs/doktorandi-van-univerziteta/download/519_c8518fa0b0a1c862e266cdf48c31d16c"><span
-  style='font-size:9.0pt;color:#1155CC'>https://www.npao.ni.ac.rs/doktorandi-van-univerziteta/download/519_c8518fa0b0a1c862e266cdf48c31d16c</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>12.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%'>Adela
-  Ljaji&#263;, Aldina Avdi&#263;, Ulfeta Marovac, Ejub Kajan, Creating Domain
-  Dictionaries for Serbian Language, Serbia, 4th International Conference
-  „Contemporary Problems of Mathematics, Mechanics and Informatics“, 19-21. Jun
-  2016, Novi Pazar.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  M34. </span></p>
-  <p class=MsoNormal style='margin-left:.5in'><span lang=EN-US><a
-  href="https://www.npao.ni.ac.rs/doktorandi-van-univerziteta/download/521_43b239ab825a7de8780d0c1bc8eb1c2a"><span
-  style='font-size:9.0pt;color:#1155CC'>https://www.npao.ni.ac.rs/doktorandi-van-univerziteta/download/521_43b239ab825a7de8780d0c1bc8eb1c2a</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in'><span lang=EN-US><a
-  href="https://www.researchgate.net/publication/304381286_Creating_Domain_Dictionaries_for_Serbian_Language"><span
-  style='font-size:9.0pt'>https://www.researchgate.net/publication/304381286_Creating_Domain_Dictionaries_for_Serbian_Language</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>13.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%'>Ivan
-  &#272;oki&#263;, Aldina Pljaskovi&#263;, Aleksandra Pavlovi&#263;, A Simple
-  Routing Protocol for Ad Hoc Networks, 3th International Conference
-  Contemporary Problems of Mathematics, Mechanics and Informatics, 2014, Novi
-  Pazar, 66.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  M34</span></p>
-  <p class=MsoNormal style='margin-left:.5in'><span lang=EN-US><a
-  href="https://www.npao.ni.ac.rs/doktorandi-van-univerziteta/download/522_36b0ad5fc8e1862b2258def3d60c39f5"><span
-  style='font-size:9.0pt;color:#1155CC'>https://www.npao.ni.ac.rs/doktorandi-van-univerziteta/download/522_36b0ad5fc8e1862b2258def3d60c39f5</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>14.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%'>Ejub Kajan,
-  Adela Crnišanin, Aldina Pljaskovi&#263;, Web Application for Monitoring the
-  Scientific Activity of Employees at Sunp, 2th International Conference
-  Contemporary Problems of Mathematics, Mechanics and Informatics, 2012, Novi
-  Pazar, 58. M34</span></p>
-  <p class=MsoNormal style='margin-left:.5in'><span lang=EN-US><a
-  href="https://www.npao.ni.ac.rs/doktorandi-van-univerziteta/download/523_39237136a7aee22483d1806a447843b8"><span
-  style='font-size:9.0pt;color:#1155CC'>https://www.npao.ni.ac.rs/doktorandi-van-univerziteta/download/523_39237136a7aee22483d1806a447843b8</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>15.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Aldina
-  Avdi&#263;, Ejub Kajan, Dragan Jankovi&#263;, Dženan Avdi&#263;,
-  Kontekstno-svesna platforma pametnog zdravstva zasnovana na IoT i Crowdsourcing-u,
-  18th International Symposium INFOTEH-JAHORINA, 2019, 20-22 March, 414-418.
-  M33. </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;
-  color:#0E1555;background:white'>ISBN 978-99976-710-2-8 </span><span
-  lang=EN-US><a
-  href="https://infoteh.etf.ues.rs.ba/zbornik/2019/radovi/VRT/VRT-4.pdf"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>https://infoteh.etf.ues.rs.ba/zbornik/2019/radovi/VRT/VRT-4.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>16.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Ulfeta
-  Marovac, Aldina Avdi&#263;, Adela Ljaji&#263;, Anida Fazlagi&#263;, Primena
-  crowdsourcing-a u detekciji psiholoških problema, 5. Me&#273;unarodno
-  savetovanje na temu Upravljanje znanjem i informatika, 2019, Kopaonik,
-  08.-09. januar.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; M33. </span><span
-  lang=EN-US><a
-  href="http://kmi.vtsns.edu.rs/wp-content/uploads/2019/01/%D0%A1%D0%B0%D1%82%D0%BD%D0%B8%D1%86%D0%B0%D0%9A%D0%9C%D0%982019.pdf"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>http://kmi.vtsns.edu.rs/wp-content/uploads/2019/01/%D0%A1%D0%B0%D1%82%D0%BD%D0%B8%D1%86%D0%B0%D0%9A%D0%9C%D0%982019.pdf</span></a></span><span
-  lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>.</span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>17.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Aldina
-  Avdi&#263;, Ulfeta Marovac, Dragan Jankovi&#263;, Dženan Avdi&#263;, D.
-  Normalization of Medical Records Written in Serbian. In: Konjovi&#263;, Z.,
-  Zdravkovi&#263;, M., Trajanovi&#263;, M. (Eds.) ICIST 2019 Proceedings, 2019,
-  1, 72-75.&nbsp; M33. </span><span lang=EN-US><a
-  href="http://www.eventiotic.com/eventiotic/files/Papers/URL/7ec8fac3-5c51-45f0-ab37-b8477306176a.pdf"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>http://www.eventiotic.com/eventiotic/files/Papers/URL/7ec8fac3-5c51-45f0-ab37-b8477306176a.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>18.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Ulfeta
-  Marovac, Adela Ljaji&#263;, Aldina Avdi&#263;, Anida Fazlagi&#263;,
-  Automation of Psychological Testing of Stressful Situations in the Serbian.
-  In: Konjovi&#263;, Z., Zdravkovi&#263;, M., Trajanovi&#263;, M. (Eds.) ICIST
-  2019 Proceedings, 1, 102-106.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; M33. </span><span
-  lang=EN-US><a
-  href="http://www.eventiotic.com/eventiotic/files/Papers/URL/64487798-6f49-442a-8f3d-aecb890dbb0b.pdf"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>http://www.eventiotic.com/eventiotic/files/Papers/URL/64487798-6f49-442a-8f3d-aecb890dbb0b.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>19.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Ljubomir
-  Lazi&#263;, Dženan Avdi&#263;, Aldina Pljaskovi&#263;, Software Security
-  Analysis, Metrics, and Test Design Considerations, Proceedings of the 6th
-  WSEAS European Computing Conference (ECC '12) Prague, 2012,
-  355-367.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; M33. </span><span
-  lang=EN-US><a
-  href="http://www.wseas.us/e-library/conferences/2012/Prague/ECC/ECC-55.pdf"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>http://www.wseas.us/e-library/conferences/2012/Prague/ECC/ECC-55.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>20.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Aldina
-  Pljaskovic, Dženan Avdi&#263;, Petar Spalevi&#263;, Dejan Rancic, Sphere and
-  Cone Composite Realtime Shadows in OpenGL, In Information and Communication
-  Technology Forum, Sarajevo, 2013,
-  133-137.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  M33. </span><span lang=EN-US><a
-  href="https://www.ieice.org/publications/proceedings/bin/pdf_link.php?fname=COMM6-2.pdf&amp;iconf=ICTF&amp;year=2013&amp;vol=16&amp;number=COMM6-2&amp;lang=E"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>https://www.ieice.org/publications/proceedings/bin/pdf_link.php?fname=COMM6-2.pdf&amp;iconf=ICTF&amp;year=2013&amp;vol=16&amp;number=COMM6-2&amp;lang=E</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>21.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Nikola
-  Davidovi&#263;, Aldina Pljaskovi&#263;, Leonid Stoimenov, mDROID: ACCESS
-  Moodle LMS on the move, The Second International Conference on E-learning,
-  Belgrade, 2011, 157-162. M33. </span><span lang=EN-US><a
-  href="https://www.researchgate.net/profile/Nikola-Davidovic/publication/307432305_MDROID_ACCESS_MOODLE_LMS_ON_THE_MOVE/links/57c5779008ae0a6b0dc8c83b/MDROID-ACCESS-MOODLE-LMS-ON-THE-MOVE.pdf"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>https://www.researchgate.net/profile/Nikola-Davidovic/publication/307432305_MDROID_ACCESS_MOODLE_LMS_ON_THE_MOVE/links/57c5779008ae0a6b0dc8c83b/MDROID-ACCESS-MOODLE-LMS-ON-THE-MOVE.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>22.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%'>Ulfeta
-  Marovac, Aldina Pljaskovi&#263;, Ejub Kajan, Applying Native XML Databases in
-  Advanced E-Government Systems, ICIST, Kopaonik, 2012, 135-140. M33 </span></p>
-  <p class=MsoNormal style='margin-left:.5in'><span lang=EN-US><a
-  href="http://is.fink.rs/podaci/Aleksandar_Nikolic/119/Blagojevic,%20Nikolic,%20Zivkovic%20-%20PRIKAZ%20POLJA%20STRUJANJA%20-%20YUINFO%202012%20_SCAN.pdf"><span
-  style='font-size:9.0pt;color:#1155CC'>http://is.fink.rs/podaci/Aleksandar_Nikolic/119/Blagojevic,%20Nikolic,%20Zivkovic%20-%20PRIKAZ%20POLJA%20STRUJANJA%20-%20YUINFO%202012%20_SCAN.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>23.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Aldina
-  Pljaskovi&#263;, Dženan Avdi&#263;, Ljubomir Lazi&#263;, Estimacija troškova
-  u zavisnosti od CMM nivoa kompanije i vrste softverskog projekta, XII
-  me&#273;unarodni nau&#269;no-stru&#269;ni Simpozijum Infoteh, Jahorina, 2013,
-  653-657.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; M33. </span><span
-  lang=EN-US><a
-  href="https://www.researchgate.net/profile/Ljubomir-Lazic/publication/319302287_Estimacija_troskova_u_zavisnosti_od_CMM_nivoa_kompanije_i_vrste_softverskog_projekta/links/59a1d224aca2726b90166a16/Estimacija-troskova-u-zavisnosti-od-CMM-nivoa-kompanije-i-vrste-softverskog-projekta.pdf"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>https://www.researchgate.net/profile/Ljubomir-Lazic/publication/319302287_Estimacija_troskova_u_zavisnosti_od_CMM_nivoa_kompanije_i_vrste_softverskog_projekta/links/59a1d224aca2726b90166a16/Estimacija-troskova-u-zavisnosti-od-CMM-nivoa-kompanije-i-vrste-softverskog-projekta.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>24.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%'>Adela
-  Crnišanin, Aldina Pljaskovi&#263;, Ulfeta Marovac, Ejub Kajan, One Solution
-  of Searching Text Documents in Serbian Language, ICIST, Kopaonik, 2013,
-  28-33.&nbsp; M33 </span><span lang=EN-US><a
-  href="https://www.eventiotic.com/eventiotic/library/paper/520"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>https://www.eventiotic.com/eventiotic/library/paper/520</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>25.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Ulfeta
-  Marovac, Adela Crnišanin, Aldina Pljaskovi&#263;, Ejub Kajan, Similarity
-  Search in Text Data for Serbian Language, ICEST, Ohrid, 2013,
-  607-611.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; M33 </span><span lang=EN-US><a
-  href="http://rcvt.tu-sofia.bg/ICEST2013_2_38.pdf"><span style='font-size:
-  9.0pt;line-height:105%;color:#1155CC'>http://rcvt.tu-sofia.bg/ICEST2013_2_38.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>26.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Ivan
-  &#272;okic, Ljubimor Lazi&#263;, Aldina Pljaskovi&#263;, Aleksandra
-  Pavlovi&#263;, Optimization of Vehicle Maintenance Concept Using Simulation,
-  ICEST, Ohrid, 2013,
-  611-614.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  M33 </span><span lang=EN-US><a
-  href="http://rcvt.tu-sofia.bg/ICEST2013_2_39.pdf"><span style='font-size:
-  9.0pt;line-height:105%;color:#1155CC'>http://rcvt.tu-sofia.bg/ICEST2013_2_39.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>27.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Ivan
-  &#272;oki&#263;, Ljubomir Lazi&#263;, Aldina Pljaskovi&#263;, Aleksandra
-  Pavlovi&#263;, Time Between Aircraft Overhauls Optimization by Maximizing
-  Fleet Total Flying Hours, LOGIC, Belgrade, 2013,
-  55-59.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; M33, </span><span
-  lang=EN-US><a
-  href="https://www.researchgate.net/profile/Sladjana-Gajic/publication/267263724_GAINING_A_COMPETITIVE_ADVANTAGE_BY_INTEGRATION_OF_MARKETING_AND_LOGISTICS/links/5d0ce019458515c11ceb5988/GAINING-A-COMPETITIVE-ADVANTAGE-BY-INTEGRATION-OF-MARKETING-AND-LOGISTICS.pdf#page=71"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>https://www.researchgate.net/profile/Sladjana-Gajic/publication/267263724_GAINING_A_COMPETITIVE_ADVANTAGE_BY_INTEGRATION_OF_MARKETING_AND_LOGISTICS/links/5d0ce019458515c11ceb5988/GAINING-A-COMPETITIVE-ADVANTAGE-BY-INTEGRATION-OF-MARKETING-AND-LOGISTICS.pdf#page=71</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>28.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Dženan
-  Avdi&#263;, Aldina Avdi&#263;, Žaklina Spalevi&#263;, Ulfeta Marovac, Adela
-  Ljaji&#263;, M-Government Application Intended to Search Documents Written in
-  Serbian Language, Sinteza, Beograd, 2014, 902-906. M33, </span><span
-  lang=EN-US><a
-  href="http://portal.sinteza.singidunum.ac.rs/Media/files/2014/902-906.pdf"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>http://portal.sinteza.singidunum.ac.rs/Media/files/2014/902-906.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>29.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Dženan
-  Avdi&#263;, Aldina Avdi&#263;, Petar Spalevi&#263;, Žaklina Spalevi&#263;,
-  Supporting M-Health Through Android Application for Storing Anamnesis Data,
-  Sinteza, Beograd, 2016, 507-512.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; M33 </span><span
-  lang=EN-US><a
-  href="http://portal.sinteza.singidunum.ac.rs/Media/files/2016/507-512.pdf"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>http://portal.sinteza.singidunum.ac.rs/Media/files/2016/507-512.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>30.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Zakaria
-  Maamar, Nanjangud C. Narendra, Ejub Kajan, Aldina Pljaskovic, Mohamed
-  Boukhebouze, Using tags for business process enrichment. In 4th International
-  Conference on Information Systems and Technologies, 2014, Valencia, Spain, 1-131.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  M33 </span><span lang=EN-US><a
-  href="https://www.academia.edu/download/53911391/Using_Tags_for_Business_Process_Enrichme20170719-2870-bfhqvk.pdf"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>https://www.academia.edu/download/53911391/Using_Tags_for_Business_Process_Enrichme20170719-2870-bfhqvk.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>31.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Ivan
-  &#272;okic, Aldina Pljaskovi&#263;, Aleksandra Pavlovic, A Routing Algorithm
-  for Mobile Ad Hoc Networks, Icist, 2015, Srbija, 171-
-  174.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  M33, </span><span lang=EN-US><a
-  href="http://www.eventiotic.com/eventiotic/api/downloadResource?type=paper&amp;id=112&amp;url=icist2015_32.pdf"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>http://www.eventiotic.com/eventiotic/api/downloadResource?type=paper&amp;id=112&amp;url=icist2015_32.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>32.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Ivan
-  &#272;okic, Ljubomir Lazi&#263;, Aleksandra Pavlovi&#263;, Aldina Avdi&#263;,
-  Simulation Based Life-Cycle Analysis Of a Vehicle Fleet, Proceedings of the 2nd
-  Logistics International Conference LOGIC, 2015,
-  216-221.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  M33 </span><span lang=EN-US><a
-  href="http://logic.sf.bg.ac.rs/wp-content/uploads/Papers/LOGIC2015/ID-36.pdf"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>http://logic.sf.bg.ac.rs/wp-content/uploads/Papers/LOGIC2015/ID-36.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>33.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%'>Ejub Kajan,
-  Aldina Avdi&#263;, Ulfeta Marovac, Adela Ljaji&#263;, Goran &#346;imi&#263;,
-  Jelena Stankovi&#263;, Enhancing local economic development using collective
-  intelligence. In Telecommunications Forum Telfor (TELFOR), 2015, 882-885.
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; M33 </span><span lang=EN-US><a
-  href="https://ieeexplore.ieee.org/abstract/document/7377606/"><span
-  style='font-size:9.0pt;line-height:105%'>https://ieeexplore.ieee.org/abstract/document/737760</span></a><a
-  href="https://ieeexplore.ieee.org/abstract/document/7377606/"><span
-  style='font-size:9.0pt;line-height:105%'>6/</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>34.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Adela
-  Ljaji&#263;, Ulfeta Marovac, Aldina Avdi&#263;, Sentiment Analysis of Twitter
-  for the Serbian Language, 7th International Conference on Information Society
-  and Technology ICIST 2017, 86-89. M33, </span><span lang=EN-US><a
-  href="http://www.eventiotic.com/eventiotic/files/Papers/URL/1bb53522-59a7-4190-a32c-f5996b9dddc5.pdf"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>http://www.eventiotic.com/eventiotic/files/Papers/URL/1bb53522-59a7-4190-a32c-f5996b9dddc5.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>35.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Adela
-  Ljaji&#263;, Ulfeta Marovac, Aldina Avdi&#263;, Processing of Negation in
-  Sentiment Analysis for the Serbian Language, Proceedings of 4th International
-  Conference on Electrical, Electronics and Computing Engineering, IcETRAN
-  2017, Kladovo, Serbia, June 05-08, RTI2.6.1-5.&nbsp; M33 </span><span
-  lang=EN-US><a
-  href="https://www.researchgate.net/profile/Adela-Ljajic-2/publication/321359913_Processing_of_Negation_in_Sentiment_Analysis_for_the_Serbian_Language/links/5a2086a9a6fdcccd30e01f45/Processing-of-Negation-in-Sentiment-Analysis-for-the-Serbian-Language.pdf"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>https://www.researchgate.net/profile/Adela-Ljajic-2/publication/321359913_Processing_of_Negation_in_Sentiment_Analysis_for_the_Serbian_Language/links/5a2086a9a6fdcccd30e01f45/Processing-of-Negation-in-Sentiment-Analysis-for-the-Serbian-Language.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>36.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Aldina
-  Avdi&#263;, Dejan Ran&#269;i&#263;, Žaklina Spalevi&#263;, Jugoslav Achkoski,
-  Slobodan Bojani&#263;, Zna&#269;aj mobilnog poslovanja u pametnim gradovima,
-  Sinergija 2017, 11-14.&nbsp; M33 </span><span lang=EN-US><a
-  href="http://doisrpska.nub.rs/index.php/SNG/article/download/5772/5624"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>http://doisrpska.nub.rs/index.php/SNG/article/download/5772/5624</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>37.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Aldina
-  Avdi&#263;, Dragan Jankovi&#263;, Zna&#269;aj e-Zdravstva u konceptu pametnih
-  gradova, 17th International Symposium INFOTEH-JAHORINA, 21-23 March 2018,
-  383-387.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; M33 </span><span
-  lang=EN-US><a
-  href="https://infoteh.etf.ues.rs.ba/zbornik/2018/radovi/RSS-2/RSS-2-5.pdf"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>https://infoteh.etf.ues.rs.ba/zbornik/2018/radovi/RSS-2/RSS-2-5.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>38.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Željko
-  Jovanovi&#263;, Aldina Avdi&#263;, Dragan Jankovi&#263;, Transportation in
-  Smart Cities - Tracking and improving driving comfort, ICIST 2018 Proceedings,
-  Vol.2,
-  346-349.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  M33 </span><span lang=EN-US><a
-  href="https://www.researchgate.net/profile/Dejan-Vujicic/publication/327478069_Smart_Transportation_in_the_Service_of_Improving_Healthcare_in_Smart_Cities/links/5b91bb2ea6fdccfd541f7d7d/Smart-Transportation-in-the-Service-of-Improving-Healthcare-in-Smart-Cities.pdf"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>https://www.researchgate.net/profile/Dejan-Vujicic/publication/327478069_Smart_Transportation_in_the_Service_of_Improving_Healthcare_in_Smart_Cities/links/5b91bb2ea6fdccfd541f7d7d/Smart-Transportation-in-the-Service-of-Improving-Healthcare-in-Smart-Cities.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>39.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Željko
-  Jovanovi&#263;, Aldina Avdi&#263;, Dragan Jankovic, Dejan Vuji&#269;i&#263;,
-  Smart Transportation in the Service of Improving Healthcare in Smart Cities,
-  ICETRAN 2018, RTI3.4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  M33 </span><span lang=EN-US><a
-  href="https://www.researchgate.net/profile/Dejan_Vujicic/publication/327478069_Smart_Transportation_in_the_Service_of_Improving_Healthcare_in_Smart_Cities/links/5b91bb2ea6fdccfd541f7d7d/Smart-Transportation-in-the-Service-of-Improving-Healthcare-in-Smart-Cities.pdf"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>https://www.researchgate.net/profile/Dejan_Vujicic/publication/327478069_Smart_Transportation_in_the_Service_of_Improving_Healthcare_in_Smart_Cities/links/5b91bb2ea6fdccfd541f7d7d/Smart-Transportation-in-the-Service-of-Improving-Healthcare-in-Smart-Cities.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>40.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%'>Aldina
-  Avdi&#263;, Dženan Avdi&#263;, Ulfeta Marovac, Ejub Kajan, Adela Ljaji&#263;,
-  Koncept efikasnog parkiranja u pametnim gradovima, Telfor 2017, Beograd,
-  1-4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  M33 </span><span lang=EN-US><a
-  href="https://ieeexplore.ieee.org/abstract/document/8249434"><span
-  style='font-size:9.0pt;line-height:105%'>https://ieeexplore.ieee.org/abstract/document/8249434</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>41.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%'>Aldina
-  Avdic&#769;, Ulfeta Marovac, Dragan Jankovic&#769;, Interaktivna softverska
-  platforma za realizaciju javnih zdravstvenih servisa, 6. Me&#273;unarodna
-  konferencija Upravljanje znanjem i informatika, Kopaonik, 13.-14. januar,
-  2020. 46-52.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; M33, <span
-  style='color:black;background:whitesmoke'>ISBN 978-86-6211-123-4</span></span></p>
-  <p class=MsoNormal style='margin-left:.5in'><span lang=EN-US><a
-  href="http://kmi.vtsns.edu.rs/KMI_2020/Zbornik_radova_KMI_2020.html"><span
-  style='font-size:9.0pt;color:#1155CC'>http://kmi.vtsns.edu.rs/KMI_2020/Zbornik_radova_KMI_2020.html</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in'><span lang=EN-US><a
-  href="http://kmi.vtsns.edu.rs/KMI_2020/radovi/1-KMI_Informatika/KMI_informatika-8.pdf"><span
-  style='font-size:9.0pt;color:#1155CC'>http://kmi.vtsns.edu.rs/KMI_2020/radovi/1-KMI_Informatika/KMI_informatika-8.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>42.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Ulfeta
-  Marovac, Aldina Avdi&#263;, Dragan Jankovi&#263;, Sead Marovac, Kreiranje
-  resursa za obeležavanje dijagnoza u medicinskim izveštajima na srpskom
-  jeziku, 19th International Symposium INFOTEH-JAHORINA, 18-20 March 2020,
-  266-270.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  M33 </span><span lang=EN-US><a
-  href="https://infoteh.etf.ues.rs.ba/zbornik/2020/radovi/VRT/VRT-4.pdf"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>https://infoteh.etf.ues.rs.ba/zbornik/2020/radovi/VRT/VRT-4.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>43.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Dženan
-  Avdi&#263;, Dejan Ran&#269;i&#263;, Aldina Avdi&#263;, Petar Spalevi&#263;,
-  OpenGL Specular Reflections Caused By Light Source Placed Below Shadowed
-  Object, IcETRAN 2020, RTI4.4.&nbsp;&nbsp; M33 </span><span lang=EN-US><a
-  href="https://www.etran.rs/2020/ZBORNIK_RADOVA/Radovi_prikazani_na_konferenciji/122_RTI4.4.pdf"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>https://www.etran.rs/2020/ZBORNIK_RADOVA/Radovi_prikazani_na_konferenciji/122_RTI4.4.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>44.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Aldina
-  Avdi&#263;, Ulfeta Marovac, Dragan Jankovic, Smart Health Services for
-  Epidemic Control, ICEST 2020,
-  CIT2.4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; M33
-  </span><span lang=EN-US><a
-  href="https://www.academia.edu/download/65656612/3._ICEST_2020_114_119.pdf#page=62"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>https://www.academia.edu/download/65656612/3._ICEST_2020_114_119.pdf#page=62</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>45.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%'>Ulfeta
-  Marovac, Aldina Avdi&#263;, Adela Ljaji&#263;, Creating a Stop Word
-  Dictionary in Serbian, Serbia, 6th International Conference „Contemporary
-  Problems of Mathematics, Mechanics and Informatics“ CPMMI 2020, Novi Pazar,
-  77-78.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; M34</span></p>
-  <p class=MsoNormal style='margin-left:.5in'><span lang=EN-US><a
-  href="https://www.npao.ni.ac.rs/doktorandi-van-univerziteta/download/524_1a918d1f930cdb744b15e54824607497"><span
-  style='font-size:9.0pt;color:#1155CC'>https://www.npao.ni.ac.rs/doktorandi-van-univerziteta/download/524_1a918d1f930cdb744b15e54824607497</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>46.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%'>Aldina
-  Avdi&#263;, Ulfeta Marovac, Dragan Jankovi&#263;, Sead Marovac, Automatic
-  Labeling of Diagnosis in Medical Reports in Serbian, 6th International
-  Conference „Contemporary Problems of Mathematics, Mechanics and Informatics“
-  CPMMI 2020, Novi Pazar,
-  79-80.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  M34, </span><span lang=EN-US><a
-  href="https://www.npao.ni.ac.rs/doktorandi-van-univerziteta/download/524_1a918d1f930cdb744b15e54824607497"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>https://www.npao.ni.ac.rs/doktorandi-van-univerziteta/download/524_1a918d1f930cdb744b15e54824607497</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>47.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Ulfeta
-  Marovac, Aldina Avdic, Pregled resursa za obradu klini&#269;kih tekstova na
-  razli&#269;itim prirodnim jezicima, 20th International Symposium
-  INFOTEH-JAHORINA, 17-19 March 2021, 199 – 204 M33 </span><span lang=EN-US><a
-  href="https://infoteh.etf.ues.rs.ba/zbornik/2021/radovi/VRT-5/VRT-5-5.pdf"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>https://infoteh.etf.ues.rs.ba/zbornik/2021/radovi/VRT-5/VRT-5-5.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>48.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%'>Aldina
-  Avdic&#769;, Ulfeta Marovac, Dragan Jankovic&#769;, Primena blok&#269;ejn
-  tehnologije u cilju obezbe&#273;ivanja sigurnosti podataka u servisima
-  pametnog zdravstva, 7. Konferencija sa me&#273;unarodnim u&#269;ešc&#769;em
-  Upravljanje znanjem i informatika Vrnja&#269;ka Banja, jun 2021. M33 <span
-  style='color:black;background:whitesmoke'>ISBN </span>978-86-6211-127-2 </span></p>
-  <p class=MsoNormal style='margin-left:.5in'><span lang=EN-US><a
-  href="http://kmi.vtsns.edu.rs/KMI_2021/Zbornik_radova_KMI_2021.html"><span
-  style='font-size:9.0pt;color:#1155CC'>http://kmi.vtsns.edu.rs/KMI_2021/Zbornik_radova_KMI_2021.html</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in'><span lang=EN-US><a
-  href="http://kmi.vtsns.edu.rs/KMI_2021/radovi/1-KMI_Informatika/KMI_informatika-1.7.pdf"><span
-  style='font-size:9.0pt;color:#1155CC'>http://kmi.vtsns.edu.rs/KMI_2021/radovi/1-KMI_Informatika/KMI_informatika-1.7.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%;color:black'>49.</span><span lang=EN-US style='font-size:
-  7.0pt;line-height:105%;font-family:"Times New Roman",serif;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Avdi&#263;,
-  A., Marovac, U., Jankovi&#263;, D. Ensuring the Durability and Reliability of
-  Data in Smart Health Services Using Blockchain Technologies. In:
-  Zdravkovi&#263;, M., Trajanovi&#263;, M., Konjovi&#263;, Z. (Eds.) ICIST 2021
-  Proceedings, pp.183-186, 2021, M33 </span><span lang=EN-US><a
-  href="http://www.eventiotic.com/eventiotic/api/downloadResource?type=paper&amp;id=666&amp;url=acc51fd7-0d3f-4dd0-9d2f-236f22913d73.pdf"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>http://www.eventiotic.com/eventiotic/api/downloadResource?type=paper&amp;id=666&amp;url=acc51fd7-0d3f-4dd0-9d2f-236f22913d73.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%;color:black'>50.</span><span lang=EN-US style='font-size:
-  7.0pt;line-height:105%;font-family:"Times New Roman",serif;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>&nbsp;Aldina
-  Avdic, Ufeta Marovac, Dragan Jankovi&#263;, &quot;Creating Smart Health
-  Services Using Nlp Techniques.&quot; Sinteza 2021-International Scientific
-  Conference on Information Technology and Data Related Research. Singidunum
-  University, 2021. M33 </span><span lang=EN-US><a
-  href="http://portal.sinteza.singidunum.ac.rs/Media/files/2021/58-62.pdf"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>http://portal.sinteza.singidunum.ac.rs/Media/files/2021/58-62.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>51.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%'>Aldina
-  Avdi&#263;, Ulfeta Marovac and Dragan Jankovic, Smart Health Services based
-  on IoT and GIS, The 14th International Symposium on Intelligent Distributed
-  Computing, Sep 16-18, 2021, Online Conference, Italy, M33, </span><span
-  lang=EN-US><a href="http://idc2021.unirc.it/program.html"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>http://idc2021.unirc.it/program.html</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>52.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>U.
-  Marovac and A. Avdic, The Tools and Resources for Clinical Text Processing,
-  Univerzitet Singidunum, Beograd, 2021, M33, doi:10.15308/Sinteza-2021-134-140
-  </span><span lang=EN-US><a
-  href="http://portal.sinteza.singidunum.ac.rs/Media/files/2021/134-140.pdf"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>http://portal.sinteza.singidunum.ac.rs/Media/files/2021/134-140.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
-  margin-left:.5in;text-indent:-.25in;line-height:105%;text-autospace:ideograph-other'><span
-  lang=EN-US style='font-size:9.0pt;line-height:105%'>53.</span><span
-  lang=EN-US style='font-size:7.0pt;line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%'>Ulfeta
-  Marovac and Aldina Avdic, Detection of postpartum depression-related posts:
-  An analysis for Serbian, The 14th International Symposium on Intelligent
-  Distributed Computing, Sep 16-18, 2021, Online Conference, Italy, M33, </span><span
-  lang=EN-US><a href="http://idc2021.unirc.it/program.html"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>http://idc2021.unirc.it/program.html</span></a></span></p>
-  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
-  margin-left:.5in;text-indent:-.25in;line-height:105%;text-autospace:ideograph-other'><span
-  lang=EN-US style='font-size:9.0pt;line-height:105%'>54.</span><span
-  lang=EN-US style='font-size:7.0pt;line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%'>Aldina
-  Avdi&#263;, Ulfeta Marovac, Dragan Jankovi&#263;, ANALIZA GREŠAKA U
-  MEDICINSKIM IZVEŠTAJIMA NA SRPSKOM JEZIKU U CILJU NJIHOVE AUTOMATSKE
-  DETEKCIJE I KOREKCIJE, 8. Konferencija sa me&#273;unarodnim u&#269;eš&#263;em
-  Upravljanje znanjem i informatika , Kopaonik 2022, &#1052;33, </span><span
-  lang=EN-US><a
-  href="http://kmi.vtsns.edu.rs/KMI_2022/radovi/2-KMI_Inzenjerstvo/KMI_inzenjerstvo-2.3.pdf"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>http://kmi.vtsns.edu.rs/KMI_2022/radovi/2-KMI_Inzenjerstvo/KMI_inzenjerstvo-2.3.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
-  margin-left:.5in;text-indent:-.25in;line-height:105%;text-autospace:ideograph-other'><span
-  lang=EN-US style='font-size:9.0pt;line-height:105%'>55.</span><span
-  lang=EN-US style='font-size:7.0pt;line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%'>Ulfeta
-  Marovac, Aldina Avdi&#263;, Nejma &#268;uljevi&#263;, METODA ZA OBRADU
-  PREDIKATSKIH ISKAZA NA SRPSKOM JEZIKU, 8. Konferencija sa me&#273;unarodnim
-  u&#269;eš&#263;em Upravljanje znanjem i informatika , Kopaonik 2022,
-  &#1052;33, </span><span lang=EN-US><a
-  href="http://kmi.vtsns.edu.rs/KMI_2022/radovi/3-KMI_Obrazovanje/KMI_obrazovanje-3.3.pdf"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>http://kmi.vtsns.edu.rs/KMI_2022/radovi/3-KMI_Obrazovanje/KMI_obrazovanje-3.3.pdf</span></a></span></p>
-  <p class=MsoNormal><b><span lang=EN-US style='font-size:9.0pt'>Domestic
-  Conferences:</span></b></p>
-  <p class=MsoNormal><b><span lang=EN-US style='font-size:9.0pt'>&nbsp;</span></b></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>56.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Dženan
-  Avdi&#263;, Aldina Avdi&#263;, Medis upitnik - primena mobilnog
-  ra&#269;unarstva u medicini, YUINFO Kopaonik, 2016,
-  321-324.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  M63 </span><span lang=EN-US><a
-  href="http://www.yuinfo.org/zbornici/2016/YUINFO2016.pdf"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>http://www.yuinfo.org/zbornici/2016/YUINFO2016.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>57.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Aldina
-  Avdi&#263;, Ulfeta Marovac, Adela Ljaji&#263;, Dženan Avdi&#263;, Automatsko
-  kreiranje tezaurusa na srpskom jeziku, YUINFO Kopaonik, 2016,
-  190-193.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; M63 </span><span
-  lang=EN-US><a href="http://www.yuinfo.org/zbornici/2016/YUINFO2016.pdf"><span
-  style='font-size:9.0pt;line-height:105%;color:#1155CC'>http://www.yuinfo.org/zbornici/2016/YUINFO2016.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>58.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%'>Aldina
-  Avdi&#263;, Dragan Jankovi&#263;, Dženan Avdi&#263;, Socijalne mreže u službi
-  e-u&#269;enja – primer integracije Moodle LMS-a i Facebook-a, YU INFO
-  Kopaonik, 2015,
-  36-40.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; M63</span></p>
-  <p class=MsoNormal style='margin-left:.5in'><span lang=EN-US><a
-  href="http://www.yuinfo.org/zbornici/2015/YUINFO2015.pdf"><span
-  style='font-size:9.0pt;color:#1155CC'>http://www.yuinfo.org/zbornici/2015/YUINFO2015.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>59.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%'>Ulfeta
-  Marovac, Aldina Pljaskovi&#263;, Adela Crnišanin, Ejub Kajan, N-gram analiza
-  tekstualnih dokumenata na srpskom jeziku, TELFOR, Belgrade, 2012, 1385-
-  1388.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  M63 </span><span lang=EN-US><a
-  href="https://ieeexplore.ieee.org/document/6419476"><span style='font-size:
-  9.0pt;line-height:105%;color:#1155CC'>https://ieeexplore.ieee.org/document/6419476</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>60.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Aldina
-  Pljaskovi&#263;, Dženan Avdi&#263;, Ulfeta Marovac, Adela Crnišanin, Dejan
-  Ran&#269;i&#263;, Pretraživanje dokumenata na srpskom jeziku za potrebe
-  m-Uprave, Društvo za elektroniku, telekomunikacije, ra&#269;unarstvo,
-  automatiku i nuklearnu tehniku ETRAN, 2013,
-  RT4.6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; M63 </span></p>
-  <p class=MsoNormal style='margin-left:.5in'><span lang=EN-US
-  style='font-size:9.0pt'>http://etran.etf.rs/etran2013/fajlovi/Program_ETRAN_2013.pdf</span></p>
-  <p class=MsoNormal style='margin-left:.5in'><span lang=EN-US><a
-  href="https://www.researchgate.net/profile/Ejub-Kajan-2/publication/265788151_NORMALIZACIJA_TEKSTUALNIH_DOKUMENATA_NA_SPRSKOM_JEZIKU_U_CILJU_EFIKASNIJEG_PRETRAZIVANJA_U_SISTEMIMA_E-UPRAVE/links/541bd1af0cf2218008c4c184/NORMALIZACIJA-TEKSTUALNIH-DOKUMENATA-NA-SPRSKOM-JEZIKU-U-CILJU-EFIKASNIJEG-PRETRAZIVANJA-U-SISTEMIMA-E-UPRAVE.pdf"><span
-  style='font-size:9.0pt;color:#1155CC'>https://www.researchgate.net/profile/Ejub-Kajan-2/publication/265788151_NORMALIZACIJA_TEKSTUALNIH_DOKUMENATA_NA_SPRSKOM_JEZIKU_U_CILJU_EFIKASNIJEG_PRETRAZIVANJA_U_SISTEMIMA_E-UPRAVE/links/541bd1af0cf2218008c4c184/NORMALIZACIJA-TEKSTUALNIH-DOKUMENATA-NA-SPRSKOM-JEZIKU-U-CILJU-EFIKASNIJEG-PRETRAZIVANJA-U-SISTEMIMA-E-UPRAVE.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>61.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%'>Aldina
-  Pljaskovi&#263;, Ulfeta Marovac, Ejub Kajan, Koriš&#263;enje izvornih i
-  proširenih XML baza podataka u sistemu e-Uprave, YUINFO, Kopaonik, 2012,
-  597-600.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; M63</span></p>
-  <p class=MsoNormal style='margin-left:.5in'><span lang=EN-US><a
-  href="http://is.fink.rs/podaci/Aleksandar_Nikolic/119/Blagojevic,%20Nikolic,%20Zivkovic%20-%20PRIKAZ%20POLJA%20STRUJANJA%20-%20YUINFO%202012%20_SCAN.pdf"><span
-  style='font-size:9.0pt;color:#1155CC'>http://is.fink.rs/podaci/Aleksandar_Nikolic/119/Blagojevic,%20Nikolic,%20Zivkovic%20-%20PRIKAZ%20POLJA%20STRUJANJA%20-%20YUINFO%202012%20_SCAN.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
-  margin-left:.5in;text-indent:-.25in;line-height:105%;text-autospace:ideograph-other'><span
-  lang=EN-US style='font-size:9.0pt;line-height:105%'>62.</span><span
-  lang=EN-US style='font-size:7.0pt;line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%;color:black'>Ejub
-  Kajan, Aldina Pljaskovi&#263;, Adela Crnišanin, Normalizacija tekstualnih
-  dokumenata na srpskom jeziku u cilju efikasnijeg pretraživanja dokumenata u
-  sistemima e-Uprave, ETRAN 11. - 14 Beograd, Jun 2012, RT2.4-1 -
-  RT2.4-4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; M63 </span></p>
-  <p class=MsoNormal style='margin-left:.5in'><span lang=EN-US><a
-  href="http://etran.etf.rs/etran2012/Program_ETRAN_2012.pdf"><span
-  style='font-size:9.0pt;color:#1155CC'>http://etran.etf.rs/etran2012/Program_ETRAN_2012.pdf</span></a></span></p>
-  <p class=MsoNormal style='margin-left:.5in'><span lang=EN-US><a
-  href="https://www.researchgate.net/profile/Ejub-Kajan-2/publication/265788151_NORMALIZACIJA_TEKSTUALNIH_DOKUMENATA_NA_SPRSKOM_JEZIKU_U_CILJU_EFIKASNIJEG_PRETRAZIVANJA_U_SISTEMIMA_E-UPRAVE/links/541bd1af0cf2218008c4c184/NORMALIZACIJA-TEKSTUALNIH-DOKUMENATA-NA-SPRSKOM-JEZIKU-U-CILJU-EFIKASNIJEG-PRETRAZIVANJA-U-SISTEMIMA-E-UPRAVE.pdf"><span
-  style='font-size:9.0pt;color:#1155CC'>https://www.researchgate.net/profile/Ejub-Kajan-2/publication/265788151_NORMALIZACIJA_TEKSTUALNIH_DOKUMENATA_NA_SPRSKOM_JEZIKU_U_CILJU_EFIKASNIJEG_PRETRAZIVANJA_U_SISTEMIMA_E-UPRAVE/links/541bd1af0cf2218008c4c184/NORMALIZACIJA-TEKSTUALNIH-DOKUMENATA-NA-SPRSKOM-JEZIKU-U-CILJU-EFIKASNIJEG-PRETRAZIVANJA-U-SISTEMIMA-E-UPRAVE.pdf</span></a></span></p>
-  <p class=MsoNormal><b><span lang=EN-US style='font-size:9.0pt'>&nbsp;</span></b></p>
-  <p class=MsoNormal><b><span lang=EN-US style='font-size:9.0pt'>Technical Solutions:</span></b></p>
-  <p class=MsoNormal><b><span lang=EN-US style='font-size:9.0pt'>&nbsp;</span></b></p>
-  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;line-height:
-  105%;text-autospace:ideograph-other'><span lang=EN-US style='font-size:9.0pt;
-  line-height:105%'>63.</span><span lang=EN-US style='font-size:7.0pt;
-  line-height:105%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span><span lang=EN-US style='font-size:9.0pt;line-height:105%'>Ivan
-  &#272;oki&#263;, Aleksandra Pavlovi&#263;, Aldina Avdi&#263;, Tehni&#269;ko
-  rešenje, Protokol za usmeravanje u mobilnim ra&#269;unarskim mrežama sa
-  zadatom verovatno&#263;om isporuke paketa, 2014.&nbsp;&nbsp;&nbsp;&nbsp; M85 </span></p>
-  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
-  margin-left:.5in;text-indent:-.25in;line-height:105%;text-autospace:ideograph-other'><span
-  lang=EN-US style='font-size:9.0pt;line-height:105%'>64.<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-  lang=EN-US style='font-size:9.0pt;line-height:105%'>Ivan &#272;oki&#263;,
-  Aleksandra Pavlovi&#263;, Aldina Avdi&#263;, Tehni&#269;ko rešenje, Softver
-  za predikciju životnog ciklusa tehni&#269;kih sistema, 2014</span></p>
- </div>
-      
 
       
-
-<div class="mt-5 p-4 bg-dark text-white text-center">
-  <p>2024© - Aldina Avdić</p>
+<div class="year-columns">
+<details class="year-block" id="year-2026"><summary>2026 (0)</summary><p class="muted">No publications listed for this year yet.</p></details>
+<details class="year-block" id="year-2025"><summary>2025 (6)</summary><ol class="pub-static-list"><li><p>Sejdija, D., & Avdić, A., Optimization of Kubernetes: Resource Allocation and Dynamic Scaling, Sinteza 2025 - International Scientific Conference on Information Technology, Computer Science, and Data Science, 550-554</p><div class="pub-links"><a href="https://portal.sinteza.singidunum.ac.rs/paper/1084" target="_blank" rel="noreferrer">source</a></div></li><li><p>Marovac, U., Avdić, A., Fetahović, I., Memić, L., Đorđević, N., Dolićanin, Z., & Babić, G., Feature Selection for Biomedical Data Classification: Statistical vs. Swarm Intelligence Methods, Journal of Scientific & Industrial Research, 84(6), 2025, 672-680</p><div class="pub-links"><a href="https://or.niscpr.res.in/index.php/JSIR/article/view/13842" target="_blank" rel="noreferrer">source</a> <a href="https://or.niscpr.res.in/index.php/JSIR/article/download/13842/4471/87134" target="_blank" rel="noreferrer">source</a></div></li><li><p>Avdić, A., Ljajić, A., & Marovac, U., Multimodal Intelligence for Medical Text Extraction: Benchmarking Vision LLMs Against Classic Methods, Artificial Intelligence Conference, Belgrade, 2025</p><div class="pub-links"><a href="http://www.mi.sanu.ac.rs/~ai_conf/2025/AI_Conference_Book_of_Abstracts.pdf" target="_blank" rel="noreferrer">source</a></div></li><li><p>Ulfeta Marovac, Aldina Avdić, Generative Artificial Intelligence as a Tool for Improving the Accuracy of Classification Models, 15th International Conference on Information Society and Technology, 2025</p><div class="pub-links"><a href="https://www.researchgate.net/profile/Aldina-Avdic" target="_blank" rel="noreferrer">source</a></div></li><li><p>Halida Karišik, Aldina Avdić, PRIMENA DEVOPS METODOLOGIJE U AGILNOM RAZVOJU SOFTVERA, Advanced Technologies in Education and Industry, 2025</p><div class="pub-links"><a href="https://vtsns.edu.rs/napredneteh/NTP_2025/radovi/elektrotehnika/31.pdf" target="_blank" rel="noreferrer">source</a></div></li><li><p>Irfan Fetahović, Aldina Avdić, Ulfeta Marovac, Swarm Intelligence Methods in Feature Selection for Biomedical Data Classification, Artificial Intelligence Conference, 2025</p><div class="pub-links"><a href="https://www.mi.sanu.ac.rs/~ai_conf/2025/AI_Conference_Book_of_Abstracts.pdf" target="_blank" rel="noreferrer">source</a></div></li></ol></details>
+<details class="year-block" id="year-2024"><summary>2024 (3)</summary><ol class="pub-static-list"><li><p>Ganović, M., & Avdić, A., Generative AI Tools in Web Design, Sinteza 2024 - International Scientific Conference on Information Technology, Computer Science, and Data Science, 392-397</p><div class="pub-links"><a href="https://portal.sinteza.singidunum.ac.rs/paper/1003" target="_blank" rel="noreferrer">source</a></div></li><li><p>Kajan, E., Ugljanin, E., Marovac, U., Avdić, A., & Ljajić, A., Towards Citizen-Centered Smart Services: Research Insights from a Project, Scientific Publications of the State University of Novi Pazar, Series A, 16(1), 2024, 73-90</p><div class="pub-links"><a href="https://scholar.google.com/citations?user=kh418zoAAAAJ&hl=en" target="_blank" rel="noreferrer">source</a></div></li><li><p>Ulfeta Marovac, Aldina Avdić, Irfan Fetahović, Lejlija Memić, Nataša Đorđević, Zana Dolićanin, Comparison of Feature Selection Methods for Biomedical Data Classification, CPMMI 2024, Novi Pazar</p><div class="pub-links"><a href="http://www.dunp.np.ac.rs/eng/cpmmi-2022/" target="_blank" rel="noreferrer">source</a></div></li></ol></details>
+<details class="year-block" id="year-2023"><summary>2023 (6)</summary><ol class="pub-static-list"><li><p>Marovac, U. A., Avdić, A. R., & Milošević, N. L., A survey of resources and methods for natural language processing of Serbian language, arXiv preprint arXiv:2304.05468, 2023</p><div class="pub-links"><a href="https://arxiv.org/abs/2304.05468" target="_blank" rel="noreferrer">source</a></div></li><li><p>Ulfeta Marovac, Aldina Avdić, Nataša Đorđević, Goran Babić, Lejlija Memić, Feature Extraction for Biomedical Data Classification, ELICSIR Project Symposium, 2023</p><div class="pub-links"><a href="http://www.symp.elicsir-project.eu/book_of_abstracts.php" target="_blank" rel="noreferrer">source</a></div></li><li><p>Avdić, A. R., Djordjević, N. Z., Marovac, U. A., Memić, L. M., Dolićanin, Z. Ć., &amp; Babic, G., Thrombophilia Prediction Using Machine Learning Algorithms, 2nd ICCBIKG, 2023, 140-143</p><div class="pub-links"><a href="https://scidar.kg.ac.rs/bitstream/123456789/19271/1/2nd-ICCBIKG-%20str%20140-143.pdf" target="_blank" rel="noreferrer">source</a></div></li><li><p>Marovac, U. A., Memić, L. M., Avdić, A. R., Djordjević, N. Z., Dolićanin, Z. Ć., &amp; Babic, G., Selecting critical features for biomedical data classification, 2nd ICCBIKG, 2023, 136-139</p><div class="pub-links"><a href="https://scidar.kg.ac.rs/bitstream/123456789/19270/1/2nd-ICCBIKG-%20str%20136-139.pdf" target="_blank" rel="noreferrer">source</a></div></li><li><p>Алдина Р. Авдић, Улфета А. Маровац, Драган С. Јанковић, АУТОМАТСКО ОЗНАЧАВАЊЕ МЕДИЦИНСКИХ ПОДАТАКА НА СРПСКОМ ЈЕЗИКУ ЗА ПОТРЕБЕ СЕРВИСА ПАМЕТНОГ ЗДРАВСТВА, Konferencija Veštačka inteligencija, 2023</p><div class="pub-links"><a href="https://www.mi.sanu.ac.rs/~ai_conf/AI_conf_Knjiga_apstrakata.pdf" target="_blank" rel="noreferrer">source</a></div></li><li><p>Алдина Р. Авдић, Улфета А. Маровац, Наташа З. Ђорђевић, Лејлија М. Мемић, Зана Ћ. Долићанин, Горан М. Бабић, КЛАСИФИКАЦИЈА БИОМЕДИЦИНСКИХ ПОДАТАКА У ЦИЉУ ПРЕДИКЦИЈЕ БОЛЕСТИ У ТРУДНОЋИ, Konferencija Veštačka inteligencija, 2023</p><div class="pub-links"><a href="https://www.mi.sanu.ac.rs/~ai_conf/AI_conf_Knjiga_apstrakata.pdf" target="_blank" rel="noreferrer">source</a></div></li></ol></details>
+<details class="year-block" id="year-2022"><summary>2022 (10)</summary><ol class="pub-static-list"><li><p>Aldina Avdić, Ulfeta Marovac, Dragan Janković, ANALIZA GREŠAKA U MEDICINSKIM IZVEŠTAJIMA NA SRPSKOM JEZIKU U CILJU NJIHOVE AUTOMATSKE DETEKCIJE I KOREKCIJE, 8. Konferencija sa međunarodnim učešćem Upravljanje znanjem i informatika , Kopaonik 2022, М33,</p><div class="pub-links"><a href="http://kmi.vtsns.edu.rs/KMI%5F2022/radovi/2-KMI%5FInzenjerstvo/KMI%5Finzenjerstvo-2.3.pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Ulfeta Marovac, Aldina Avdić, Nejma Čuljević, METODA ZA OBRADU PREDIKATSKIH ISKAZA NA SRPSKOM JEZIKU, 8. Konferencija sa međunarodnim učešćem Upravljanje znanjem i informatika , Kopaonik 2022, М33,</p><div class="pub-links"><a href="http://kmi.vtsns.edu.rs/KMI%5F2022/radovi/3-KMI%5FObrazovanje/KMI%5Fobrazovanje-3.3.pdf" target="_blank" rel="noreferrer">source</a></div></li><li><p>Ulfeta Marovac, Aldina Avdić, Nejma Čuljević, THE PROCESSING OF QUANTIFICATION IN PREDICATE STATEMENTS IN THE SERBIAN LANGUAGE, 7th International Conference CONTEMPORARY PROBLEMS OF MATHEMATICS, MECHANICS AND INFORMATICS, Novi Pazar, 2022</p><div class="pub-links"><a href="http://www.dunp.np.ac.rs/eng/cpmmi-2022/" target="_blank" rel="noreferrer">source</a></div></li><li><p>Aldina Avdić, Ulfeta Marovac, Dragan Janković, PROCESSING OF MISSPELLINGS IN EHR-S IN SERBIAN, 7th International Conference CONTEMPORARY PROBLEMS OF MATHEMATICS, MECHANICS AND INFORMATICS, Novi Pazar, 2022</p><div class="pub-links"><a href="http://www.dunp.np.ac.rs/eng/cpmmi-2022/" target="_blank" rel="noreferrer">source</a></div></li><li><p>Marovac, U., & Avdić, A., Analysis of Social Media Posts Related to Postpartum Depression: A Summary Protocol on How to Develop a Remote Laboratory, Sinteza 2022, 14-19</p><div class="pub-links"><a href="https://doi.org/10.15308/Sinteza-2022-14-19" target="_blank" rel="noreferrer">source</a></div></li><li><p>Avdić, A., Marovac, U., & Janković, D., The Use of ASR to Make Clinical Documentation in Serbian, Sinteza 2022, 373-378</p><div class="pub-links"><a href="https://portal.sinteza.singidunum.ac.rs/paper/887" target="_blank" rel="noreferrer">source</a></div></li><li><p>Marovac, Ulfeta, and Aldina Avdić, Detection of Postpartum Depression-Related Posts: An Analysis for Serbian, International Symposium on Intelligent and Distributed Computing, 2022</p><div class="pub-links"><a href="https://link.springer.com/chapter/10.1007/978-3-030-96627-0_34" target="_blank" rel="noreferrer">source</a></div></li><li><p>Avdić, Aldina, Ulfeta Marovac, and Dragan Janković, Smart Health Services Based on IoT and GIS, International Symposium on Intelligent and Distributed Computing, 2022</p><div class="pub-links"><a href="https://link.springer.com/chapter/10.1007/978-3-030-96627-0_2" target="_blank" rel="noreferrer">source</a></div></li><li><p>Avdić, Aldina, and Ulfeta Marovac, Prepoznavanje imena na slikama lekarskih izveštaja na srpskom jeziku u cilju zaštite ličnih podataka, LXVI Konferencija ETRAN, 2022</p><div class="pub-links"><a href="https://www.etran.rs/2022/zbornik/ETRAN-22_radovi/154-VI1.4.pdf" target="_blank" rel="noreferrer">source</a></div></li><li><p>Ulfeta Marovac, Aldina Avdić, Sistem za automatizaciju testova za proveru znanja baziran na transformaciji predikatskih iskaza, LXVI Konferencija ETRAN, 2022</p><div class="pub-links"><a href="https://www.etran.rs/2022/zbornik/ETRAN-22_radovi/155-VI1.5.pdf" target="_blank" rel="noreferrer">source</a></div></li></ol></details>
+<details class="year-block" id="year-2021"><summary>2021 (8)</summary><ol class="pub-static-list"><li><p>U. Marovac, A. Avdic, A. Ljajić, Creating a Stop Word Dictionary in Serbian, SCIENTIFIC PUBLICATIONS OF THE STATE UNIVERSITY OF NOVI PAZAR SER. A: APPL. MATH. INFORM. AND MECH. vol. 13, 1, 2021, 17-25. M52</p><div class="pub-links"><a href="http://www.dunp.np.ac.rs/wp-content/uploads/2021/casopisa/vol13-1/SP-SUNP-13-1-2021-3.pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Ulfeta Marovac, Aldina Avdic, Pregled resursa za obradu kliničkih tekstova na različitim prirodnim jezicima, 20th International Symposium INFOTEH-JAHORINA, 17-19 March 2021, 199 – 204 M33</p><div class="pub-links"><a href="https://infoteh.etf.ues.rs.ba/zbornik/2021/radovi/VRT-5/VRT-5-5.pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Aldina Avdić, Ulfeta Marovac, Dragan Janković, Primena blokčejn tehnologije u cilju obezbeđivanja sigurnosti podataka u servisima pametnog zdravstva, 7. Konferencija sa međunarodnim učešćem Upravljanje znanjem i informatika Vrnjačka Banja, jun 2021. M33 ISBN 978-86-6211-127-2</p><div class="pub-links"><a href="http://kmi.vtsns.edu.rs/KMI%5F2021/Zbornik%5Fradova%5FKMI%5F2021.html" target="_blank" rel="noreferrer">source</a> <a href="http://kmi.vtsns.edu.rs/KMI%5F2021/radovi/1-KMI%5FInformatika/KMI%5Finformatika-1.7.pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Avdić, A., Marovac, U., Janković, D. Ensuring the Durability and Reliability of Data in Smart Health Services Using Blockchain Technologies. In: Zdravković, M., Trajanović, M., Konjović, Z. (Eds.) ICIST 2021 Proceedings, pp.183-186, 2021, M33</p><div class="pub-links"><a href="http://www.eventiotic.com/eventiotic/api/downloadResource?type=paper&amp;id=666&amp;url=acc51fd7-0d3f-4dd0-9d2f-236f22913d73.pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Aldina Avdic, Ufeta Marovac, Dragan Janković, &quot;Creating Smart Health Services Using Nlp Techniques.&quot; Sinteza 2021-International Scientific Conference on Information Technology and Data Related Research. Singidunum University, 2021. M33</p><div class="pub-links"><a href="http://portal.sinteza.singidunum.ac.rs/Media/files/2021/58-62.pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Aldina Avdić, Ulfeta Marovac and Dragan Jankovic, Smart Health Services based on IoT and GIS, The 14th International Symposium on Intelligent Distributed Computing, Sep 16-18, 2021, Online Conference, Italy, M33,</p><div class="pub-links"><a href="http://idc2021.unirc.it/program.html" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>U. Marovac and A. Avdic, The Tools and Resources for Clinical Text Processing, Univerzitet Singidunum, Beograd, 2021, M33, doi:10.15308/Sinteza-2021-134-140</p><div class="pub-links"><a href="http://portal.sinteza.singidunum.ac.rs/Media/files/2021/134-140.pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Ulfeta Marovac and Aldina Avdic, Detection of postpartum depression-related posts: An analysis for Serbian, The 14th International Symposium on Intelligent Distributed Computing, Sep 16-18, 2021, Online Conference, Italy, M33,</p><div class="pub-links"><a href="http://idc2021.unirc.it/program.html" target="_blank" rel="noreferrer">source</a></div></li></ol></details>
+<details class="year-block" id="year-2020"><summary>2020 (9)</summary><ol class="pub-static-list"><li><p>Aldina Avdić, Ulfeta Marovac, Dragan Janković, Avdic, A., Marovac, U., &amp; Jankovic, D. (2020). Automated labeling of terms in medical reports in Serbian. Turkish Journal of Electrical Engineering &amp; Computer Sciences, 28(6), 3285-3303. M23, , , ,</p><div class="pub-links"><a href="https://doi.org/10.3906/elk-2002-9" target="_blank" rel="noreferrer">source</a> <a href="https://journals.tubitak.gov.tr/elektrik/issues/elk-20-28-6/elk-28-6-14-2002-9.pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Aldina Avdić, Ulfeta Marovac, Dragan Janković, (2020) Normalization of Health Records in the Serbian Language with the Aim of Smart Health Services Realization. _Facta Universitatis, Series: Mathematics and Informatics_, Vol. 35, No 3 (2020), 825-841. M51</p><div class="pub-links"><a href="https://doi.org/10.22190/FUMI2003825A" target="_blank" rel="noreferrer">source</a> <a href="https://scholar.archive.org/work/fysgega5cvecfd5dtl7oixrnxu/access/wayback/http://casopisi.junis.ni.ac.rs/index.php/FUMathInf/article/download/5748/pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Ulfeta Marovac, Aldina Avdić, Dragan Janković, Sead Marovac, Creating Resources for Marking Diagnoses in Electronic Health Reports in Serbian, International Journal of Electrical Engineering and Computing, 2020, 4(1), 18-23. M53</p><div class="pub-links"><a href="https://ijeec.etf.ues.rs.ba/index.php/ijeec/article/download/82/49" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Aldina Avdić, Ulfeta Marovac, Dragan Janković, Interaktivna softverska platforma za realizaciju javnih zdravstvenih servisa, 6. Međunarodna konferencija Upravljanje znanjem i informatika, Kopaonik, 13.-14. januar, 2020. 46-52. M33, ISBN 978-86-6211-123-4</p><div class="pub-links"><a href="http://kmi.vtsns.edu.rs/KMI%5F2020/Zbornik%5Fradova%5FKMI%5F2020.html" target="_blank" rel="noreferrer">source</a> <a href="http://kmi.vtsns.edu.rs/KMI%5F2020/radovi/1-KMI%5FInformatika/KMI%5Finformatika-8.pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Ulfeta Marovac, Aldina Avdić, Dragan Janković, Sead Marovac, Kreiranje resursa za obeležavanje dijagnoza u medicinskim izveštajima na srpskom jeziku, 19th International Symposium INFOTEH-JAHORINA, 18-20 March 2020, 266-270. M33</p><div class="pub-links"><a href="https://infoteh.etf.ues.rs.ba/zbornik/2020/radovi/VRT/VRT-4.pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Dženan Avdić, Dejan Rančić, Aldina Avdić, Petar Spalević, OpenGL Specular Reflections Caused By Light Source Placed Below Shadowed Object, IcETRAN 2020, RTI4.4. M33</p><div class="pub-links"><a href="https://www.etran.rs/2020/ZBORNIK%5FRADOVA/Radovi%5Fprikazani%5Fna%5Fkonferenciji/122%5FRTI4.4.pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Aldina Avdić, Ulfeta Marovac, Dragan Jankovic, Smart Health Services for Epidemic Control, ICEST 2020, CIT2.4. M33</p><div class="pub-links"><a href="https://phaidrabg.bg.ac.rs/view/o:33823" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Ulfeta Marovac, Aldina Avdić, Adela Ljajić, Creating a Stop Word Dictionary in Serbian, Serbia, 6th International Conference „Contemporary Problems of Mathematics, Mechanics and Informatics“ CPMMI 2020, Novi Pazar, 77-78. M34</p><div class="pub-links"><a href="https://www.npao.ni.ac.rs/doktorandi-van-univerziteta/download/524%5F1a918d1f930cdb744b15e54824607497" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Aldina Avdić, Ulfeta Marovac, Dragan Janković, Sead Marovac, Automatic Labeling of Diagnosis in Medical Reports in Serbian, 6th International Conference „Contemporary Problems of Mathematics, Mechanics and Informatics“ CPMMI 2020, Novi Pazar, 79-80. M34,</p><div class="pub-links"><a href="https://www.npao.ni.ac.rs/doktorandi-van-univerziteta/download/524%5F1a918d1f930cdb744b15e54824607497" target="_blank" rel="noreferrer">source</a></div></li></ol></details>
+<details class="year-block" id="year-2019"><summary>2019 (5)</summary><ol class="pub-static-list"><li><p>Aldina Avdić, Ejub Kajan, Dragan Janković, Dženan Avdić, Towards Context-Aware Smart Healthcare Platform, International Journal of Electrical Engineering and Computing, 2019, 3(1), 26-31. M53,,</p><div class="pub-links"><a href="https://ijeec.etf.ues.rs.ba/index.php/ijeec/article/view/52" target="_blank" rel="noreferrer">source</a> <a href="https://ijeec.etf.ues.rs.ba/index.php/ijeec/article/view/52/32" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Aldina Avdić, Ejub Kajan, Dragan Janković, Dženan Avdić, Kontekstno-svesna platforma pametnog zdravstva zasnovana na IoT i Crowdsourcing-u, 18th International Symposium INFOTEH-JAHORINA, 2019, 20-22 March, 414-418. M33. ISBN 978-99976-710-2-8</p><div class="pub-links"><a href="https://infoteh.etf.ues.rs.ba/zbornik/2019/radovi/VRT/VRT-4.pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Ulfeta Marovac, Aldina Avdić, Adela Ljajić, Anida Fazlagić, Primena crowdsourcing-a u detekciji psiholoških problema, 5. Međunarodno savetovanje na temu Upravljanje znanjem i informatika, 2019, Kopaonik, 08.-09. januar. M33\</p><div class="pub-links"><a href="http://kmi.vtsns.edu.rs/wp-content/uploads/2019/01/%D0%A1%D0%B0%D1%82%D0%BD%D0%B8%D1%86%D0%B0%D0%9A%D0%9C%D0%982019.pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Aldina Avdić, Ulfeta Marovac, Dragan Janković, Dženan Avdić, D. Normalization of Medical Records Written in Serbian. In: Konjović, Z., Zdravković, M., Trajanović, M. (Eds.) ICIST 2019 Proceedings, 2019, 1, 72-75. M33\</p><div class="pub-links"><a href="http://www.eventiotic.com/eventiotic/files/Papers/URL/7ec8fac3-5c51-45f0-ab37-b8477306176a.pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Ulfeta Marovac, Adela Ljajić, Aldina Avdić, Anida Fazlagić, Automation of Psychological Testing of Stressful Situations in the Serbian. In: Konjović, Z., Zdravković, M., Trajanović, M. (Eds.) ICIST 2019 Proceedings, 1, 102-106. M33\</p><div class="pub-links"><a href="http://www.eventiotic.com/eventiotic/files/Papers/URL/64487798-6f49-442a-8f3d-aecb890dbb0b.pdf" target="_blank" rel="noreferrer">source</a></div></li></ol></details>
+<details class="year-block" id="year-2018"><summary>2018 (5)</summary><ol class="pub-static-list"><li><p>Ulfeta Marovac, Adela Ljajić, Ejub Kajan, Aldina Avdic, Towards the lexical resources for sentiment-reach informal texts – the Serbian language case, Serbia, 5th International Conference „Contemporary Problems of Mathematics, Mechanics and Informatics“, 2018, 17-19 Jun, Novi Pazar. M34\</p><div class="pub-links"><a href="https://www.researchgate.net/profile/Ejub-Kajan-2/publication/340591362%5F52UlfetaMarovac-etalCPPMI2018/links/5e92fe0d299bf1307991c2e0/52UlfetaMarovac-etalCPPMI2018.pdf" target="_blank" rel="noreferrer">source</a> <a href="https://www.npao.ni.ac.rs/doktorandi-van-univerziteta/download/519%5Fc8518fa0b0a1c862e266cdf48c31d16c" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Aldina Avdić, Dragan Janković, Healthcare in Smart Cities – Privacy and Security Issues, Serbia, 5th International Conference „Contemporary Problems of Mathematics, Mechanics and Informatics“, 2018, 17-19 Jun, Novi Pazar. M34</p><div class="pub-links"><a href="https://www.npao.ni.ac.rs/doktorandi-van-univerziteta/download/519%5Fc8518fa0b0a1c862e266cdf48c31d16c" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Aldina Avdić, Dragan Janković, Značaj e-Zdravstva u konceptu pametnih gradova, 17th International Symposium INFOTEH-JAHORINA, 21-23 March 2018, 383-387. M33</p><div class="pub-links"><a href="https://infoteh.etf.ues.rs.ba/zbornik/2018/radovi/RSS-2/RSS-2-5.pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Željko Jovanović, Aldina Avdić, Dragan Janković, Transportation in Smart Cities - Tracking and improving driving comfort, ICIST 2018 Proceedings, Vol.2, 346-349. M33</p><div class="pub-links"><a href="https://www.researchgate.net/profile/Dejan-Vujicic/publication/327478069%5FSmart%5FTransportation%5Fin%5Fthe%5FService%5Fof%5FImproving%5FHealthcare%5Fin%5FSmart%5FCities/links/5b91bb2ea6fdccfd541f7d7d/Smart-Transportation-in-the-Service-of-Improving-Healthcare-in-Smart-Cities.pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Željko Jovanović, Aldina Avdić, Dragan Jankovic, Dejan Vujičić, Smart Transportation in the Service of Improving Healthcare in Smart Cities, ICETRAN 2018, RTI3.4. M33</p><div class="pub-links"><a href="https://www.researchgate.net/profile/Dejan%5FVujicic/publication/327478069%5FSmart%5FTransportation%5Fin%5Fthe%5FService%5Fof%5FImproving%5FHealthcare%5Fin%5FSmart%5FCities/links/5b91bb2ea6fdccfd541f7d7d/Smart-Transportation-in-the-Service-of-Improving-Healthcare-in-Smart-Cities.pdf" target="_blank" rel="noreferrer">source</a></div></li></ol></details>
+<details class="year-block" id="year-2017"><summary>2017 (5)</summary><ol class="pub-static-list"><li><p>Dženan Avdić, Dejan Rančić, Petar Spalević, Aldina Avdić, Edin Dolićanin, Real-time shadows in OpenGL caused by the presence of multiple light sources, Tehnički vjesnik, 2017, 24(2), 495-501. M23, ,</p><div class="pub-links"><a href="https://doi.org/10.17559/TV-20140324202037" target="_blank" rel="noreferrer">source</a> <a href="https://hrcak.srce.hr/file/274459" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Adela Ljajić, Ulfeta Marovac, Aldina Avdić, Sentiment Analysis of Twitter for the Serbian Language, 7th International Conference on Information Society and Technology ICIST 2017, 86-89. M33,</p><div class="pub-links"><a href="http://www.eventiotic.com/eventiotic/files/Papers/URL/1bb53522-59a7-4190-a32c-f5996b9dddc5.pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Adela Ljajić, Ulfeta Marovac, Aldina Avdić, Processing of Negation in Sentiment Analysis for the Serbian Language, Proceedings of 4th International Conference on Electrical, Electronics and Computing Engineering, IcETRAN 2017, Kladovo, Serbia, June 05-08, RTI2.6.1-5. M33</p><div class="pub-links"><a href="https://www.researchgate.net/profile/Adela-Ljajic-2/publication/321359913%5FProcessing%5Fof%5FNegation%5Fin%5FSentiment%5FAnalysis%5Ffor%5Fthe%5FSerbian%5FLanguage/links/5a2086a9a6fdcccd30e01f45/Processing-of-Negation-in-Sentiment-Analysis-for-the-Serbian-Language.pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Aldina Avdić, Dejan Rančić, Žaklina Spalević, Jugoslav Achkoski, Slobodan Bojanić, Značaj mobilnog poslovanja u pametnim gradovima, Sinergija 2017, 11-14. M33</p><div class="pub-links"><a href="http://doisrpska.nub.rs/index.php/SNG/article/download/5772/5624" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Aldina Avdić, Dženan Avdić, Ulfeta Marovac, Ejub Kajan, Adela Ljajić, Koncept efikasnog parkiranja u pametnim gradovima, Telfor 2017, Beograd, 1-4. M33</p><div class="pub-links"><a href="https://ieeexplore.ieee.org/abstract/document/8249434" target="_blank" rel="noreferrer">source</a></div></li></ol></details>
+<details class="year-block" id="year-2016"><summary>2016 (4)</summary><ol class="pub-static-list"><li><p>Adela Ljajić, Aldina Avdić, Ulfeta Marovac, Ejub Kajan, Creating Domain Dictionaries for Serbian Language, Serbia, 4th International Conference „Contemporary Problems of Mathematics, Mechanics and Informatics“, 19-21. Jun 2016, Novi Pazar. M34\</p><div class="pub-links"><a href="https://www.npao.ni.ac.rs/doktorandi-van-univerziteta/download/521%5F43b239ab825a7de8780d0c1bc8eb1c2a" target="_blank" rel="noreferrer">source</a> <a href="https://www.researchgate.net/publication/304381286%5FCreating%5FDomain%5FDictionaries%5Ffor%5FSerbian%5FLanguage" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Dženan Avdić, Aldina Avdić, Petar Spalević, Žaklina Spalević, Supporting M-Health Through Android Application for Storing Anamnesis Data, Sinteza, Beograd, 2016, 507-512. M33</p><div class="pub-links"><a href="http://portal.sinteza.singidunum.ac.rs/Media/files/2016/507-512.pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Dženan Avdić, Aldina Avdić, Medis upitnik - primena mobilnog računarstva u medicini, YUINFO Kopaonik, 2016, 321-324. M63</p><div class="pub-links"><a href="http://www.yuinfo.org/zbornici/2016/YUINFO2016.pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Aldina Avdić, Ulfeta Marovac, Adela Ljajić, Dženan Avdić, Automatsko kreiranje tezaurusa na srpskom jeziku, YUINFO Kopaonik, 2016, 190-193. M63</p><div class="pub-links"><a href="http://www.yuinfo.org/zbornici/2016/YUINFO2016.pdf" target="_blank" rel="noreferrer">source</a></div></li></ol></details>
+<details class="year-block" id="year-2015"><summary>2015 (4)</summary><ol class="pub-static-list"><li><p>Ivan Đokic, Aldina Pljasković, Aleksandra Pavlovic, A Routing Algorithm for Mobile Ad Hoc Networks, Icist, 2015, Srbija, 171- 174. M33,</p><div class="pub-links"><a href="http://www.eventiotic.com/eventiotic/api/downloadResource?type=paper&amp;id=112&amp;url=icist2015%5F32.pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Ivan Đokic, Ljubomir Lazić, Aleksandra Pavlović, Aldina Avdić, Simulation Based Life-Cycle Analysis Of a Vehicle Fleet, Proceedings of the 2nd Logistics International Conference LOGIC, 2015, 216-221. M33</p><div class="pub-links"><a href="http://logic.sf.bg.ac.rs/wp-content/uploads/Papers/LOGIC2015/ID-36.pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Ejub Kajan, Aldina Avdić, Ulfeta Marovac, Adela Ljajić, Goran Śimić, Jelena Stanković, Enhancing local economic development using collective intelligence. In Telecommunications Forum Telfor (TELFOR), 2015, 882-885. M33</p><div class="pub-links"><a href="https://ieeexplore.ieee.org/abstract/document/7377606/" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Aldina Avdić, Dragan Janković, Dženan Avdić, Socijalne mreže u službi e-učenja – primer integracije Moodle LMS-a i Facebook-a, YU INFO Kopaonik, 2015, 36-40. M63</p><div class="pub-links"><a href="http://www.yuinfo.org/zbornici/2015/YUINFO2015.pdf" target="_blank" rel="noreferrer">source</a></div></li></ol></details>
+<details class="year-block" id="year-2014"><summary>2014 (7)</summary><ol class="pub-static-list"><li><p>Ejub Kajan, Noura Faci, Zakaria Maamar, Alfred Loo, Aldina Pljasković, Quan Z Sheng, Schahram Dustdar, The Network-based Business Process, IEEE Internet Computing, 2014, 18(2), 63- 69. M21, **DOI:** ,</p><div class="pub-links"><a href="https://cs.adelaide.edu.au/~qsheng/papers/IC-mar14.pdf" target="_blank" rel="noreferrer">source</a> <a href="https://doi.org/10.1109/MIC.2014.35" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Adela Ljajić, Ulefta Marovac, Aldina Avdić, Optimizacija dokumenata za njihovu bržu pretragu, Nove informacione tehnologije za analitičko odlučivanje u biološkim, ekonomskim i sociološkim sistemima, Državni univerzitet u Novom Pazaru, 2014, pp. 64-87, ISBN: 978-86-86893-61-1, preprint, M45</p><div class="pub-links"><a href="https://scholar.google.com/scholar?q=Adela+Ljajić,+Ulefta+Marovac,+Aldina+Avdić,+Optimizacija+dokumenata+za+njihovu+bržu+pretragu,+Nove+informacione+tehnologije+za+analitičko+odlučivanje+u+biološkim,+ekonomskim+i+sociološkim+sistemima,+Državni+univerzitet+u" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Ivan Đokić, Aldina Pljasković, Aleksandra Pavlović, A Simple Routing Protocol for Ad Hoc Networks, 3th International Conference Contemporary Problems of Mathematics, Mechanics and Informatics, 2014, Novi Pazar, 66. M34</p><div class="pub-links"><a href="https://www.npao.ni.ac.rs/doktorandi-van-univerziteta/download/522%5F36b0ad5fc8e1862b2258def3d60c39f5" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Dženan Avdić, Aldina Avdić, Žaklina Spalević, Ulfeta Marovac, Adela Ljajić, M-Government Application Intended to Search Documents Written in Serbian Language, Sinteza, Beograd, 2014, 902-906. M33,</p><div class="pub-links"><a href="http://portal.sinteza.singidunum.ac.rs/Media/files/2014/902-906.pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Zakaria Maamar, Nanjangud C. Narendra, Ejub Kajan, Aldina Pljaskovic, Mohamed Boukhebouze, Using tags for business process enrichment. In 4th International Conference on Information Systems and Technologies, 2014, Valencia, Spain, 1-131. M33</p><div class="pub-links"><a href="https://www.academia.edu/download/53911391/Using%5FTags%5Ffor%5FBusiness%5FProcess%5FEnrichme20170719-2870-bfhqvk.pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Ivan Đokić, Aleksandra Pavlović, Aldina Avdić, Tehničko rešenje, Protokol za usmeravanje u mobilnim računarskim mrežama sa zadatom verovatnoćom isporuke paketa, 2014. M85</p><div class="pub-links"><a href="https://scholar.google.com/scholar?q=Ivan+Đokić,+Aleksandra+Pavlović,+Aldina+Avdić,+Tehničko+rešenje,+Protokol+za+usmeravanje+u+mobilnim+računarskim+mrežama+sa+zadatom+verovatnoćom+isporuke+paketa,+2014.+M85" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Ivan Đokić, Aleksandra Pavlović, Aldina Avdić, Tehničko rešenje, Softver za predikciju životnog ciklusa tehničkih sistema, 2014 2024© - Aldina Avdić</p><div class="pub-links"><a href="https://scholar.google.com/scholar?q=Ivan+Đokić,+Aleksandra+Pavlović,+Aldina+Avdić,+Tehničko+rešenje,+Softver+za+predikciju+životnog+ciklusa+tehničkih+sistema,+2014+2024©+-+Aldina+Avdić" target="_blank" rel="noreferrer">source</a></div></li></ol></details>
+<details class="year-block" id="year-2013"><summary>2013 (8)</summary><ol class="pub-static-list"><li><p>Zakaria Maamar, Noura Faci, Ejub Kajan, Aldina Pljasković, Emir Ugljanin, Fahim Akhter, From Social Web Services to Social Communities of Web Services, AIS: Advances in Information Sciences, 2013, 1(1), 22-37. M53,</p><div class="pub-links"><a href="https://www.researchgate.net/publication/265396625%5FFrom%5FSocial%5FWeb%5FServices%5Fto%5FSocial%5FCommunities%5Fof%5FWeb%5FServices" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Aldina Pljaskovic, Dženan Avdić, Petar Spalević, Dejan Rancic, Sphere and Cone Composite Realtime Shadows in OpenGL, In Information and Communication Technology Forum, Sarajevo, 2013, 133-137. M33\</p><div class="pub-links"><a href="https://www.ieice.org/publications/proceedings/bin/pdf%5Flink.php?fname=COMM6-2.pdf&amp;iconf=ICTF&amp;year=2013&amp;vol=16&amp;number=COMM6-2&amp;lang=E" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Aldina Pljasković, Dženan Avdić, Ljubomir Lazić, Estimacija troškova u zavisnosti od CMM nivoa kompanije i vrste softverskog projekta, XII međunarodni naučno-stručni Simpozijum Infoteh, Jahorina, 2013, 653-657. M33\</p><div class="pub-links"><a href="https://www.researchgate.net/profile/Ljubomir-Lazic/publication/319302287%5FEstimacija%5Ftroskova%5Fu%5Fzavisnosti%5Fod%5FCMM%5Fnivoa%5Fkompanije%5Fi%5Fvrste%5Fsoftverskog%5Fprojekta/links/59a1d224aca2726b90166a16/Estimacija-troskova-u-zavisnosti-od-CMM-nivoa-kompanije-i-vrste-softverskog-projekta.pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Adela Crnišanin, Aldina Pljasković, Ulfeta Marovac, Ejub Kajan, One Solution of Searching Text Documents in Serbian Language, ICIST, Kopaonik, 2013, 28-33. M33</p><div class="pub-links"><a href="https://www.eventiotic.com/eventiotic/library/paper/520" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Ulfeta Marovac, Adela Crnišanin, Aldina Pljasković, Ejub Kajan, Similarity Search in Text Data for Serbian Language, ICEST, Ohrid, 2013, 607-611. M33</p><div class="pub-links"><a href="http://rcvt.tu-sofia.bg/ICEST2013%5F2%5F38.pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Ivan Đokic, Ljubimor Lazić, Aldina Pljasković, Aleksandra Pavlović, Optimization of Vehicle Maintenance Concept Using Simulation, ICEST, Ohrid, 2013, 611-614. M33</p><div class="pub-links"><a href="http://rcvt.tu-sofia.bg/ICEST2013%5F2%5F39.pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Ivan Đokić, Ljubomir Lazić, Aldina Pljasković, Aleksandra Pavlović, Time Between Aircraft Overhauls Optimization by Maximizing Fleet Total Flying Hours, LOGIC, Belgrade, 2013, 55-59. M33,</p><div class="pub-links"><a href="https://www.researchgate.net/profile/Sladjana-Gajic/publication/267263724%5FGAINING%5FA%5FCOMPETITIVE%5FADVANTAGE%5FBY%5FINTEGRATION%5FOF%5FMARKETING%5FAND%5FLOGISTICS/links/5d0ce019458515c11ceb5988/GAINING-A-COMPETITIVE-ADVANTAGE-BY-INTEGRATION-OF-MARKETING-AND-LOGISTICS.pdf#page=71" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Aldina Pljasković, Dženan Avdić, Ulfeta Marovac, Adela Crnišanin, Dejan Rančić, Pretraživanje dokumenata na srpskom jeziku za potrebe m-Uprave, Društvo za elektroniku, telekomunikacije, računarstvo, automatiku i nuklearnu tehniku ETRAN, 2013, RT4.6. M63</p><div class="pub-links"><a href="https://www.researchgate.net/profile/Ejub-Kajan-2/publication/265788151%5FNORMALIZACIJA%5FTEKSTUALNIH%5FDOKUMENATA%5FNA%5FSPRSKOM%5FJEZIKU%5FU%5FCILJU%5FEFIKASNIJEG%5FPRETRAZIVANJA%5FU%5FSISTEMIMA%5FE-UPRAVE/links/541bd1af0cf2218008c4c184/NORMALIZACIJA-TEKSTUALNIH-DOKUMENATA-NA-SPRSKOM-JEZIKU-U-CILJU-EFIKASNIJEG-PRETRAZIVANJA-U-SISTEMIMA-E-UPRAVE.pdf" target="_blank" rel="noreferrer">source</a> <a href="http://etran.etf.rs/etran2013/fajlovi/Program_ETRAN_2013.pdf" target="_blank" rel="noreferrer">source</a></div></li></ol></details>
+<details class="year-block" id="year-2012"><summary>2012 (6)</summary><ol class="pub-static-list"><li><p>Ejub Kajan, Adela Crnišanin, Aldina Pljasković, Web Application for Monitoring the Scientific Activity of Employees at Sunp, 2th International Conference Contemporary Problems of Mathematics, Mechanics and Informatics, 2012, Novi Pazar, 58. M34</p><div class="pub-links"><a href="https://www.npao.ni.ac.rs/doktorandi-van-univerziteta/download/523%5F39237136a7aee22483d1806a447843b8" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Ljubomir Lazić, Dženan Avdić, Aldina Pljasković, Software Security Analysis, Metrics, and Test Design Considerations, Proceedings of the 6th WSEAS European Computing Conference (ECC &#x27;12) Prague, 2012, 355-367. M33\</p><div class="pub-links"><a href="http://www.wseas.us/e-library/conferences/2012/Prague/ECC/ECC-55.pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Ulfeta Marovac, Aldina Pljasković, Ejub Kajan, Applying Native XML Databases in Advanced E-Government Systems, ICIST, Kopaonik, 2012, 135-140. M33</p><div class="pub-links"><a href="http://is.fink.rs/podaci/Aleksandar%5FNikolic/119/Blagojevic,%20Nikolic,%20Zivkovic%20-%20PRIKAZ%20POLJA%20STRUJANJA%20-%20YUINFO%202012%20%5FSCAN.pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Ulfeta Marovac, Aldina Pljasković, Adela Crnišanin, Ejub Kajan, N-gram analiza tekstualnih dokumenata na srpskom jeziku, TELFOR, Belgrade, 2012, 1385- 1388. M63</p><div class="pub-links"><a href="https://ieeexplore.ieee.org/document/6419476" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Aldina Pljasković, Ulfeta Marovac, Ejub Kajan, Korišćenje izvornih i proširenih XML baza podataka u sistemu e-Uprave, YUINFO, Kopaonik, 2012, 597-600. M63</p><div class="pub-links"><a href="http://is.fink.rs/podaci/Aleksandar%5FNikolic/119/Blagojevic,%20Nikolic,%20Zivkovic%20-%20PRIKAZ%20POLJA%20STRUJANJA%20-%20YUINFO%202012%20%5FSCAN.pdf" target="_blank" rel="noreferrer">source</a></div></li>
+<li><p>Ejub Kajan, Aldina Pljasković, Adela Crnišanin, Normalizacija tekstualnih dokumenata na srpskom jeziku u cilju efikasnijeg pretraživanja dokumenata u sistemima e-Uprave, ETRAN 11. - 14 Beograd, Jun 2012, RT2.4-1 - RT2.4-4. M63</p><div class="pub-links"><a href="http://etran.etf.rs/etran2012/Program%5FETRAN%5F2012.pdf" target="_blank" rel="noreferrer">source</a> <a href="https://www.researchgate.net/profile/Ejub-Kajan-2/publication/265788151%5FNORMALIZACIJA%5FTEKSTUALNIH%5FDOKUMENATA%5FNA%5FSPRSKOM%5FJEZIKU%5FU%5FCILJU%5FEFIKASNIJEG%5FPRETRAZIVANJA%5FU%5FSISTEMIMA%5FE-UPRAVE/links/541bd1af0cf2218008c4c184/NORMALIZACIJA-TEKSTUALNIH-DOKUMENATA-NA-SPRSKOM-JEZIKU-U-CILJU-EFIKASNIJEG-PRETRAZIVANJA-U-SISTEMIMA-E-UPRAVE.pdf" target="_blank" rel="noreferrer">source</a></div></li></ol></details>
+<details class="year-block" id="year-2011"><summary>2011 (1)</summary><ol class="pub-static-list"><li><p>Nikola Davidović, Aldina Pljasković, Leonid Stoimenov, mDROID: ACCESS Moodle LMS on the move, The Second International Conference on E-learning, Belgrade, 2011, 157-162. M33\</p><div class="pub-links"><a href="https://www.researchgate.net/profile/Nikola-Davidovic/publication/307432305%5FMDROID%5FACCESS%5FMOODLE%5FLMS%5FON%5FTHE%5FMOVE/links/57c5779008ae0a6b0dc8c83b/MDROID-ACCESS-MOODLE-LMS-ON-THE-MOVE.pdf" target="_blank" rel="noreferrer">source</a></div></li></ol></details>
 </div>
+</section>
 
-</body>
+      <section id="contact" class="container card reveal">
+        <h2>Contact</h2>
+        <div class="contact-grid">
+          <p><strong>Address:</strong> Novi Pazar, Serbia</p>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:aldina.pljaskovic@gmail.com">aldina.pljaskovic@gmail.com</a>
+          </p>
+          <p>
+            <strong>LinkedIn:</strong>
+            <a href="https://www.linkedin.com/in/aldina-avdi%C4%87-1b8a1760/" target="_blank" rel="noreferrer">linkedin.com/in/aldina-avdić-1b8a1760</a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Aldina Avdic. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
